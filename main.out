@@ -1,0 +1,22 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{subsection.1.0.1}{References}{chapter.1}% 2
+\BOOKMARK [0][-]{chapter.2}{Case Study 1: xxxxxxxx}{}% 3
+\BOOKMARK [1][-]{section.2.1}{First ideas}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{Superpixel segmentation}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{PCA}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Hypothesis}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Topics you should review}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{Downloading}{section.2.2}% 9
+\BOOKMARK [0][-]{chapter.3}{Case Study 2: xxxxxxxx}{}% 10
+\BOOKMARK [1][-]{section.3.1}{What is an image?}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.1.1}{FITS files}{section.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.1.2}{WFC3 ERS M83 Data Products}{section.3.1}% 13
+\BOOKMARK [1][-]{section.3.2}{Preprocessing your data}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.3}{Software available}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Experimenting}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Methods Selected}{chapter.4}% 17
+\BOOKMARK [2][-]{subsection.4.1.1}{ESOM, Evolving Self Organizing Maps}{section.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.1.2}{CSOM}{section.4.1}% 19
+\BOOKMARK [1][-]{section.4.2}{Further work}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Some interesting ideas}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Links you should check out}{section.4.2}% 22

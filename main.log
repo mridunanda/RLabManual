@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 SEP 2016 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 SEP 2016 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,7 +1523,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count344
 \@quotereset=\count345
-(./main.aux (./winterdelosReyes/MiguelMargeauxContent.aux))
+(./main.aux (./MiguelMargeauxContent.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
@@ -1652,7 +1652,7 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <35> not available
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <35> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 104.
 
-<Pictures/esahubble.png, id=51, 614.295pt x 794.97pt>
+<Pictures/esahubble.png, id=55, 614.295pt x 794.97pt>
 File: Pictures/esahubble.png Graphic file (type png)
 
 <use Pictures/esahubble.png>
@@ -1676,7 +1676,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[2] <Pictures/galaxy_spacewarp.jpg, id=65, 963.6pt x 481.8pt>
+[2] <Pictures/galaxy_spacewarp.jpg, id=69, 963.6pt x 481.8pt>
 File: Pictures/galaxy_spacewarp.jpg Graphic file (type jpg)
 
 <use Pictures/galaxy_spacewarp.jpg>
@@ -1715,12 +1715,20 @@ File: Pictures/galaxy_spacewarp.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/galaxy_spacewarp.jpg used on input line 148.
 (pdftex.def)             Requested size: 614.295pt x 307.15262pt.
  [5]
-\openout2 = `winterdelosReyes/MiguelMargeauxContent.aux'.
+\openout2 = `ANOVA.aux'.
+
+ (./ANOVA.tex [6
 
 
-(./winterdelosReyes/MiguelMargeauxContent.tex
+]
+Chapter 2.
+File: Pictures/galaxy_spacewarp.jpg Graphic file (type jpg)
+<use Pictures/galaxy_spacewarp.jpg>
+Package pdftex.def Info: Pictures/galaxy_spacewarp.jpg used on input line 2.
+(pdftex.def)             Requested size: 614.295pt x 307.15262pt.
 
-LaTeX Warning: Citation 'cran-r' on page 6 undefined on input line 19.
+
+LaTeX Warning: Citation 'cran-r' on page 7 undefined on input line 19.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
@@ -1732,10 +1740,11 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [6
 
-]
-<pictures/BoxPlotOpticalDensity.jpg, id=117, 427.5975pt x 516.93124pt>
+Underfull \vbox (badness 1629) has occurred while \output is active []
+
+ [7]
+<pictures/BoxPlotOpticalDensity.jpg, id=125, 427.5975pt x 516.93124pt>
 File: pictures/BoxPlotOpticalDensity.jpg Graphic file (type jpg)
 
 <use pictures/BoxPlotOpticalDensity.jpg>
@@ -1743,81 +1752,13 @@ Package pdftex.def Info: pictures/BoxPlotOpticalDensity.jpg used on input line
 59.
 (pdftex.def)             Requested size: 213.79822pt x 258.46498pt.
 
-<pictures/asFactor.png, id=118, 332.24126pt x 104.39pt>
-File: pictures/asFactor.png Graphic file (type png)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use pictures/asFactor.png>
-Package pdftex.def Info: pictures/asFactor.png used on input line 71.
-(pdftex.def)             Requested size: 166.12021pt x 52.19485pt.
+ [8]
+[9 <./pictures/BoxPlotOpticalDensity.jpg>]
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 91
+.
 
-<pictures/ordered1.png, id=120, 741.77126pt x 53.19875pt>
-File: pictures/ordered1.png Graphic file (type png)
-
-<use pictures/ordered1.png>
-Package pdftex.def Info: pictures/ordered1.png used on input line 92.
-(pdftex.def)             Requested size: 370.88472pt x 26.5993pt.
- [7 <./pictures/BoxPlotOpticalDensity.jpg> <./pictures/asFactor.png>] <pictures
-/stacked.png, id=129, 474.77374pt x 121.45375pt>
-File: pictures/stacked.png Graphic file (type png)
-
-<use pictures/stacked.png>
-Package pdftex.def Info: pictures/stacked.png used on input line 100.
-(pdftex.def)             Requested size: 237.38629pt x 60.72672pt.
-
-<pictures/tukey.png, id=130, 298.11375pt x 53.19875pt>
-File: pictures/tukey.png Graphic file (type png)
-
-<use pictures/tukey.png>
-Package pdftex.def Info: pictures/tukey.png used on input line 108.
-(pdftex.def)             Requested size: 149.0565pt x 26.5993pt.
- [8 <./pictures/ordered1.png> <./pictures/stacked.png> <./pictures/tukey.png>]
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 128.
-
-
-Package xcolor Warning: Incompatible color definition on input line 129.
-
-
-Package xcolor Warning: Incompatible color definition on input line 129.
-
-
-Package xcolor Warning: Incompatible color definition on input line 129.
-
-
-Package xcolor Warning: Incompatible color definition on input line 130.
-
-
-Package xcolor Warning: Incompatible color definition on input line 130.
-
-
-Package xcolor Warning: Incompatible color definition on input line 130.
-
-
-Package xcolor Warning: Incompatible color definition on input line 130.
-
-
-Package xcolor Warning: Incompatible color definition on input line 130.
-
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
-0.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1825,20 +1766,20 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
-0.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 91
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
-0.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 91
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
-0.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 91
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1849,18 +1790,111 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 130.
-
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 91.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+
+
+Package xcolor Warning: Incompatible color definition on input line 91.
+
+
+Package xcolor Warning: Incompatible color definition on input line 91.
+
+
+Package xcolor Warning: Incompatible color definition on input line 91.
+
+
+Package xcolor Warning: Incompatible color definition on input line 91.
+
+
+Package xcolor Warning: Incompatible color definition on input line 91.
+
+
+Package xcolor Warning: Incompatible color definition on input line 92.
+
+
+Package xcolor Warning: Incompatible color definition on input line 92.
+
+
+Package xcolor Warning: Incompatible color definition on input line 92.
+
+
+Package xcolor Warning: Incompatible color definition on input line 92.
+
+
+Package xcolor Warning: Incompatible color definition on input line 92.
+
+
+Package xcolor Warning: Incompatible color definition on input line 92.
+
+
+Package xcolor Warning: Incompatible color definition on input line 92.
+
+
+Package xcolor Warning: Incompatible color definition on input line 93.
+
+
+Package xcolor Warning: Incompatible color definition on input line 93.
+
+
+Package xcolor Warning: Incompatible color definition on input line 93.
+
+
+Package xcolor Warning: Incompatible color definition on input line 93.
+
+[10]
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+
+Package xcolor Warning: Incompatible color definition on input line 128.
+
+
+Package xcolor Warning: Incompatible color definition on input line 129.
+
+
+Package xcolor Warning: Incompatible color definition on input line 129.
+
+
+Package xcolor Warning: Incompatible color definition on input line 129.
+
+
+Package xcolor Warning: Incompatible color definition on input line 130.
+
+
+Package xcolor Warning: Incompatible color definition on input line 130.
+
+
+Package xcolor Warning: Incompatible color definition on input line 130.
+
+
+Package xcolor Warning: Incompatible color definition on input line 130.
+
+
+Package xcolor Warning: Incompatible color definition on input line 130.
 
 
 Package xcolor Warning: Incompatible color definition on input line 130.
@@ -2618,7 +2652,6 @@ Package xcolor Warning: Incompatible color definition on input line 164.
 
 Package xcolor Warning: Incompatible color definition on input line 164.
 
-[9]
 
 Package xcolor Warning: Incompatible color definition on input line 170.
 
@@ -2751,6 +2784,7 @@ Package xcolor Warning: Incompatible color definition on input line 176.
 
 Package xcolor Warning: Incompatible color definition on input line 176.
 
+[11]
 
 Package xcolor Warning: Incompatible color definition on input line 178.
 
@@ -3336,9 +3370,7 @@ Package xcolor Warning: Incompatible color definition on input line 218.
 
 Package xcolor Warning: Incompatible color definition on input line 218.
 
-[10] [11] [12
-
-]
+[12]
 File: Pictures/galaxy_spacewarp.jpg Graphic file (type jpg)
  <use Pictures/galaxy_spacewarp.jpg>
 Package pdftex.def Info: Pictures/galaxy_spacewarp.jpg used on input line 230.
@@ -3355,23 +3387,22 @@ Underfull \hbox (badness 2150) in paragraph at lines 234--235
 n-sity Read-ings. Re-trieved from
  []
 
-) [13]
+) [13
+
+]
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
- (./main.aux (./winterdelosReyes/MiguelMargeauxContent.aux))
+ (./main.aux (./ANOVA.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BFEB9BE577FDD0D1386A9377D5D8092D;673.
+(rerunfilecheck)             Checksum: 5FD591E5F6FB7A090FDE4A201B654CEE;714.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -3383,13 +3414,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34501 strings out of 493089
- 627073 string characters out of 6134842
- 1311995 words of memory out of 5000000
- 37149 multiletter control sequences out of 15000+600000
- 73637 words of font info for 158 fonts, out of 8000000 for 9000
+ 34495 strings out of 493089
+ 626718 string characters out of 6134842
+ 1297882 words of memory out of 5000000
+ 37133 multiletter control sequences out of 15000+600000
+ 73377 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,57p,10507b,3202s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,12n,57p,10507b,3161s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
@@ -3399,10 +3430,10 @@ texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 7880451 bytes).
+Output written on main.pdf (13 pages, 7737433 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 137 named destinations out of 1000 (max. 500000)
- 41096 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 41084 words of extra memory for PDF output out of 42996 (max. 10000000)
 

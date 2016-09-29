@@ -49,14 +49,18 @@ We will look at variances in data using R's ANOVA functions.
 
 \subsection{Visualization}
 
-We will also use our fitted models and our ANOVA data to create box plots and line plots. Much of the information gleaned from ANOVA is presented via numeric such as the sum of square, degrees of freedom, and the mean. ANOVA presents the null hypothesis that there is no difference in means of the treatments, and once this hypothesis is proven incorrect, the question arises of how the treatments differ. The post-hoc test also allows the user to find the differences in means, and specifically categorizes the lower and upper means of the data.
+We will also use our fitted models and our ANOVA data to create box plots and line plots.
+Much of the information gleaned from ANOVA is presented via numeric such as the sum of square, degrees of freedom, and the mean.
+ANOVA presents the null hypothesis that there is no difference in means of the treatments, and once this hypothesis is proven incorrect, the question arises of how the treatments differ.
+The post-hoc test also allows the user to find the differences in means, and specifically categorizes the lower and upper means of the data.
 
-Below is a box plot of the data before running ANOVA or TukeyHSD. Constructing a box plot before analyzing the data may prove helpful in deciding what kind of analysis would be preferable.
+Figure \ref{fig:BoxPlotOpticalDensity} shows a box plot of the data before running ANOVA or TukeyHSD.
+Constructing a box plot before analyzing the data may prove helpful in deciding what kind of analysis would be preferable.
 
-\begin{figure}[H] %  the "H" means put it where you put this code....but that doesn't always work!
+\begin{figure}%  the "H" means put it where you put this code....but that doesn't always work!
         \centering
+                \includegraphics[width = .5\textwidth]{pictures/ANOVA/BoxPlotOpticalDensity.jpg} 
         \caption{Boxplot}
-        \includegraphics[scale=0.5]{pictures/BoxPlotOpticalDensity.jpg} 
         \label{fig:BoxPlotOpticalDensity}
 \end{figure}
 
@@ -111,7 +115,7 @@ summary(TukeyHSD(Anova_Results))
 \end{lstlisting}
  \subsection{Programming Hints}
 It is recommended to look at data before analysis in order to better understand the levels and attributes of data.
-In addition, we recommend the use of summary() and the console to view the attributes of objects.
+In addition, we recommend the use of \texttt{summary()} and the console to view the attributes of objects.
  
 \section{Deliverable}
 
@@ -121,8 +125,9 @@ Using aov, students should be able to identify degrees of freedom, the sum of th
 
 \section{Teaching Code}
 
-Begin ANOVA by formatting the data in a csv file, then uploading it to RStudio.
-This script is set up to analyze publicly available data about HIV Optical density readings, but can be adapted for any properly set up data. As the reader works his or her way through the script, be sure to liberally comment the purpose of each command. 
+Begin ANOVA by formatting the data in a \texttt{.csv} file, then uploading it to RStudio.
+This script is set up to analyze publicly available data about HIV Optical density readings, but can be adapted for any properly set up data. 
+As the reader works his or her way through the script, be sure to liberally comment the purpose of each command. 
 
 \begin{lstlisting}
 # Your name here

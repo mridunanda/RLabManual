@@ -14,13 +14,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Visualization}{8}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Building the Model}{9}{section.2.3}
+\contentsline {section}{\numberline {2.3}Building the Model}{8}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Programming Hints}{10}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Deliverable}{10}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Teaching Code}{11}{section.2.5}
+\contentsline {section}{\numberline {2.5}Teaching Code}{10}{section.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Example Student Code}{11}{section.2.6}
 \defcounter {refsection}{0}\relax 

@@ -4,6 +4,8 @@
 %
 % Important note:
 % Chapter heading images should have a 2:1 width:height ratio,
+% Note, chapter headings were sized incorrectly. Structure.tex has been edited
+% accordingly.
 % e.g. 920px width and 460px height.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -33,12 +35,6 @@
 \usepackage{enumitem}
 
 \usepackage{lipsum}
-
-\usepackage{color}
-
-\definecolor{dkgreen}{rgb}{0, 0.6, 0}
-\definecolor{gray}{rgb}{0.5, 0.5, 0.5}
-\definecolor{mauve}{rgb}{0.58, 0, 0.82}
 
 \usepackage{listings}
 
@@ -73,6 +69,9 @@
 
 \usepackage{xcolor} % Required for specifying colors by name
 \definecolor{ocre}{RGB}{52,177,201} % Define the orange color used for highlighting throughout the book
+\definecolor{dkgreen}{rgb}{0, 0.6, 0}
+\definecolor{gray}{rgb}{0.5, 0.5, 0.5}
+\definecolor{mauve}{rgb}{0.58, 0, 0.82}
 
 % Font Settings
 \usepackage{avant} % Use the Avantgarde font for headings
@@ -145,11 +144,13 @@
 
 \chapterimage{Pictures/ChapterHeadings/header_03.jpg} % Chapter heading image
 
-\chapter{Introduction}
+\chapter*{Introduction}
 \vspace{1cm}
 
 Gotwals will write an Intro.
 
 \include{ANOVA}
+
+\include{neuralnetwork}
 \printbibliography
 \end{document}

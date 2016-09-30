@@ -1,102 +1,69 @@
-% arara: pdflatex
-% arara: nomencl
-% arara: pdflatex
-% !TEX TS-program = arara
-\documentclass[11pt]{article}
-\usepackage[margin=1.0in]{geometry}         
-\geometry{letterpaper}    
-\usepackage{graphicx}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage{epstopdf}
-\usepackage{float} 
-\usepackage{listings}
-\usepackage{color}
-\usepackage{hyperref}
-\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
-\DeclareGraphicsRule{.gif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .gif`.png}
-
-\definecolor{dkgreen}{rgb}{0, 0.6, 0}
-\definecolor{gray}{rgb}{0.5, 0.5, 0.5}
-\definecolor{mauve}{rgb}{0.58, 0, 0.82}
-
-\lstset{
-    language=R,
-    basicstyle=\footnotesize,
-    numbers=left,
-    numberstyle=\tiny\color{gray},
-    stepnumber=1,
-    numbersep=5pt,
-    backgroundcolor=\color{white},
-    showspaces=false,
-    showstringspaces=false,
-    showtabs=false,
-    frame=tb,
-    rulecolor=\color{black},
-    tabsize=2,
-    captionpos=b,
-    breaklines=true,
-    breakatwhitespace=false,
-    title=\lstname,
-    keywordstyle=\color{blue},
-    commentstyle=\color{dkgreen},
-    stringstyle=\color{mauve},
-    escapeinside={\%*}{*)},
-    morekeywords={*,...}
-}
-
-%%% START OF MODIFIABLE CODE %%%
-
-\title{Use and Application of the neuralnet Package in R}
-\author{Mridu Nanda \\ Nikhil Milind \\ Alan York \\ North Carolina School of Science and Math}
-
-%%% LEAVE THIS STUFF ALONE %%%
-
-\begin{document}
-\maketitle
-
-%%% CONTINUING MODIFIABLE STUFF %%%
-
+\chapter{Neural Networks}
 \section{Introduction to Neural Networks}
 
-In the field of computational research, the use of computers is generally restricted to discreet, exact commands that are meant to be executed in a certain manner, which  provide the computational power required for complex calculations. In contrast, neural networks are an example of machine learning (ML), wherein the machine is capable of learning behavior or interpreting patterns from a given data set. The field of predictive analysis uses this paradigm of computational interpretation. For example, it is extremely challenging to develop a system that is purely programmed to recognize handwriting. Yet, computers at the United States Postal Service are able to decipher human words and reroute letters and packages without the need for humans. These computers contain a neural network that has been trained to recognize handwriting and predict characters as they appear on mail. \cite{nielsen} \\
+In the field of computational research, the use of computers is generally restricted to discreet, exact commands that are meant to be executed in a certain manner, which  provide the computational power required for complex calculations.
+In contrast, neural networks are an example of machine learning (ML), wherein the machine is capable of learning behavior or interpreting patterns from a given data set.
+The field of predictive analysis uses this paradigm of computational interpretation.
+For example, it is extremely challenging to develop a system that is purely programmed to recognize handwriting.
+Yet, computers at the United States Postal Service are able to decipher human words and reroute letters and packages without the need for humans.
+These computers contain a neural network that has been trained to recognize handwriting and predict characters as they appear on mail. \cite{nielsen} 
 
-\begin{figure}[H]
+\begin{figure}[h]
    \centering
       \caption{The Parts of an Anatomical Neuron}
-   \includegraphics[scale=0.75]{neuron.jpg} 
+   \includegraphics[scale=0.75]{pictures/NeuralNetworks/neuron.jpg} 
    \label{fig:neuron}
 \end{figure}
 
-Neural networks were designed using the human brain as an inspiration. The neural network is composed of perceptrons, which are similar to the smallest functional units of the brain: the neuron. Neurons act as the wiring of the brain by passing along signals that they receive to other neurons. When a neuron communicates with another neuron, it uses neurotransmitters to either increase or decrease the probability of the next neuron firing. Thus, a neuron can be excitatory (increases the chance of the next neuron firing) or inhibitory (decreases the chance of the next neuron firing). Similarly, neural networks utilize perceptrons that can receive multiple inputs and produce a single output. The inputs are binary values (0 or 1), and affect the perceptron differently depending on their excitatory or inhibitory ability. The amount of excitation or inhibition is captured by weights, or values that the inputs are multiplied by. Finally, the aggregate sum of these inputs and their weights is used to calculate if the perceptron in question will fire an output to the next layer of perceptrons. \\
+Neural networks were designed using the human brain as an inspiration.
+The neural network is composed of perceptrons, which are similar to the smallest functional units of the brain: the neuron.
+Neurons act as the wiring of the brain by passing along signals that they receive to other neurons.
+When a neuron communicates with another neuron, it uses neurotransmitters to either increase or decrease the probability of the next neuron firing.
+Thus, a neuron can be excitatory (increases the chance of the next neuron firing) or inhibitory (decreases the chance of the next neuron firing).
+Similarly, neural networks utilize perceptrons that can receive multiple inputs and produce a single output.
+The inputs are binary values ($0$ or $1$), and affect the perceptron differently depending on their excitatory or inhibitory ability.
+The amount of excitation or inhibition is captured by weights, or values that the inputs are multiplied by.
+Finally, the aggregate sum of these inputs and their weights is used to calculate if the perceptron in question will fire an output to the next layer of perceptrons. 
 
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
         \caption{A neuron in a neural network, with binary inputs $x_1$, $x_2$, and $x_3$.}
-    \includegraphics[scale=1.0]{sigmoidNeuron.png}
+    \includegraphics[scale=1.0]{pictures/NeuralNetworks/sigmoidNeuron.png}
     \label{fig:sigmoidNeuron}
 \end{figure}
 
-Neurons that only utilize binary inputs, however, are not efficient in learning. For example, neurons in the brain release different amount of neurotransmitters to indicate different levels of excitation. Similarly, most modern neural networks generate an output that is between 0 and 1, inclusive. This type of function is known as the sigmoid function, and the resulting neuron is known as the sigmoid neuron. 
+Neurons that only utilize binary inputs, however, are not efficient in learning.
+For example, neurons in the brain release different amount of neurotransmitters to indicate different levels of excitation.
+Similarly, most modern neural networks generate an output that is between $0$ and $1$, inclusive.
+This type of function is known as the sigmoid function, and the resulting neuron is known as the sigmoid neuron. 
 
 \subsection{Neural Networks with Sigmoid Neurons}
 
-With practice, humans can arrange sigmoid neurons to generate a functional unit that can take inputs and produce a certain computational output. Functionally, sigmoid neurons act as NAND gates, which are universal to computational procedures. However, the true value of the neural network lies in data and input values that do not have any discernible pattern. In such cases, neural networks are capable of learning patterns by themselves. Therefore, neural networks can be trained with an initial data set, after which they can predict the output values of new information. \\
-
-Although a single sigmoid neurons can be trained, it is not adequate to use such a unit to capture the entirety of complex patterns found in data sets. Rather, a network of sigmoid neurons is created to assess input values and generate proper outputs. Neural networks are most often arranged in layers. The first layer is known as the input layer, whilst the last layer is known as the output layer. All the neural layers in the middle are known as hidden layers. \\
-
-\begin{figure}[H]
+With practice, humans can arrange sigmoid neurons to generate a functional unit that can take inputs and produce a certain computational output.
+Functionally, sigmoid neurons act as NAND gates, which are universal to computational procedures.
+However, the true value of the neural network lies in data and input values that do not have any discernible pattern.
+In such cases, neural networks are capable of learning patterns by themselves.
+Therefore, neural networks can be trained with an initial data set, after which they can predict the output values of new information.
+Although a single sigmoid neurons can be trained, it is not adequate to use such a unit to capture the entirety of complex patterns found in data sets.
+Rather, a network of sigmoid neurons is created to assess input values and generate proper outputs.
+Neural networks are most often arranged in layers.
+The first layer is known as the input layer, whilst the last layer is known as the output layer.
+All the neural layers in the middle are known as hidden layers. 
+\begin{figure}[h]
     \centering
         \caption{A neural network with three layers: an input layer, a hidden layer, and an output layer.}
-    \includegraphics[scale=0.75]{neuralNetwork.png}
+    \includegraphics[scale=0.75]{pictures/NeuralNetworks/neuralNetwork.png}
     \label{fig:neuralNetwork}
 \end{figure}
-
-The sample neural network above takes four inputs in the first layer and produces a singular output. Since all the components involved are sigmoid neurons, the value of the output of the neural network can take any value between 0 and 1. 
+The sample neural network shown in figure \ref{fig:neuralNetwork} takes four inputs in the first layer and produces a singular output.
+Since all the components involved are sigmoid neurons, the value of the output of the neural network can take any value between 0 and 1. 
 
 \subsection{Training in a Neural Network}
 
-In general, every sigmoid neuron has a certain set of inputs $X=\{x_1, x_2, \hdots , x_n\}$. Each input is associated with a weight, or the amount of excitation or inhibition each input causes, which are expressed as the weight set $W=\{w_1, w_2, \hdots , w_n\}$. The value of the previous inputs is also influenced by a neuron-specific bias $b$, which acts as a value of how reactive the neuron is to the inputs. Finally, the sigmoid neuron produces an output $O$ between 0 and 1 depending on the influence of previous inputs as follows:
+In general, every sigmoid neuron has a certain set of inputs $X=\{x_1, x_2, \hdots , x_n\}$.
+Each input is associated with a weight, or the amount of excitation or inhibition each input causes, which are expressed as the weight set $W=\{w_1, w_2, \hdots , w_n\}$.
+The value of the previous inputs is also influenced by a neuron-specific bias $b$, which acts as a value of how reactive the neuron is to the inputs.
+Finally, the sigmoid neuron produces an output $O$ between $0$ and $1$ depending on the influence of previous inputs as follows:
 
 \begin{gather*}
     \sigma (x)=\frac{1}{1+e^{-x}}\\
@@ -105,19 +72,29 @@ In general, every sigmoid neuron has a certain set of inputs $X=\{x_1, x_2, \hdo
     O(W, X)=\frac{1}{1+e^{-W\cdot X - b}}
 \end{gather*}
 
-Therefore, by computing the dot product of set $W$ and set $X$, offsetting the dot product by the neural bias, and then passing that value through the sigmoid function, we generate an output between 0 and 1. If the sigmoid neuron in question is part of a hidden layer, it will pass on its output to other neurons in the next layer. \\
+Therefore, by computing the dot product of set $W$ and set $X$, offsetting the dot product by the neural bias, and then passing that value through the sigmoid function, we generate an output between 0 and 1.
+If the sigmoid neuron in question is part of a hidden layer, it will pass on its output to other neurons in the next lay. 
 
-To train a network, we begin with a neural network that is set up with well-chosen (but random) weights and begin sending input values through it. The output is then compared to the value we were expecting, and computational corrections are made in increments to the weights and biases in the neural network using gradient descent algorithms. Over time, the neural network becomes more accurate and has the ability to predict future output values from input values.
+To train a network, we begin with a neural network that is set up with well-chosen (but random) weights and begin sending input values through it.
+The output is then compared to the value we were expecting, and computational corrections are made in increments to the weights and biases in the neural network using gradient descent algorithms.
+Over time, the neural network becomes more accurate and has the ability to predict future output values from input values.
 
 \subsection{Measuring Predictive Error}
 
-To train our neural network computationally, we need to develop a cost function, that quantifies the amount of training our neural network has undergone. That is, this function has to return a value that quanitifies the difference between prediction and reality. During training, every predicted value is compared to the actual value of the data through subtraction and squared. Thus, for a prediction $y$ and actual value $\hat y$.
+To train our neural network computationally, we need to develop a cost function, that quantifies the amount of training our neural network has undergone.
+That is, this function has to return a value that quanitifies the difference between prediction and reality.
+During training, every predicted value is compared to the actual value of the data through subtraction and squared.
+Thus, for a prediction $y$ and actual value $\hat y$.
 
 \begin{equation*}
 C(y,\hat y)=(\hat y - y)^2
 \end{equation*}
 
-The cost function is computed for every data point used to train the neural network. The overall error of the neural network is simply the average of all the cost function values for every data point that was used to train the network. However, since we are squaring the cost function, we divide the average by 2 to decrease the severity of predictive error. This error function is most commonly known as the Mean-Squared Error function, and is predominantly used to train neural networks. For a set of predictions $Y=\{y_1,y_2,\hdots,y_n\}$ and a set of actual values $\hat Y=\{\hat y_1,\hat y_2,\hdots,\hat y_n\}$:
+The cost function is computed for every data point used to train the neural network.
+The overall error of the neural network is simply the average of all the cost function values for every data point that was used to train the network.
+However, since we are squaring the cost function, we divide the average by 2 to decrease the severity of predictive error.
+This error function is most commonly known as the Mean-Squared Error function, and is predominantly used to train neural networks.
+For a set of predictions $Y=\{y_1,y_2,\hdots,y_n\}$ and a set of actual values $\hat Y=\{\hat y_1,\hat y_2,\hdots,\hat y_n\}$:
 
 \begin{gather*}
 J(Y,\hat Y)=\sum_{i=0}^{n} \frac{C(y_i,\hat y_i)}{2n} \\
@@ -126,8 +103,13 @@ J(Y,\hat Y)=\sum_{i=0}^{n} \frac{(\hat y_i - y_i)^2}{2n}
 
 \section{Installation}
 
-The neuralnet package can be found at \url{https://cran.r-project.org/web/packages/neuralnet/index.html}. Download the package that works for your operating system and CPU architecture. The following code can be used to install the package from the R command line. This example illustrates the installation of a windows system binary file. However, all other installations will also be the same, with FILE\_PATH leading to the package downloads. Alternatively, a script file can be generated to install the neuralnet package. 
-\begin{figure}[H]
+The neuralnet package can be found at \url{https://cran.r-project.org/web/packages/neuralnet/index.html}.
+Download the package that works for your operating system and CPU architecture.
+The following code can be used to install the package from the R command line.
+This example illustrates the installation of a windows system binary file.
+However, all other installations will also be the same, with \texttt{FILE\_PATH} leading to the package downloads.
+Alternatively, a script file can be generated to install the neuralnet package. 
+\begin{figure}[h]
 \caption{Code for Windows}
 \begin{lstlisting}
 install.packages("FILE_PATH.zip", repos=NULL)
@@ -136,7 +118,7 @@ library(neuralnet)
 \end{lstlisting}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h]
 \caption{Code for Mac / OSX}
 \begin{lstlisting}
 install.packages("FILE_PATH.tgz")
@@ -152,18 +134,20 @@ The installation may throw a warning reminding the user that the package may be 
 \section{Objectives of Case Study}
 
 There are multiple objectives that the student must accomplish over the course of this neural networks case study.
-\subsection{Objective 1}
-\textbf{Objective: } Understand neural networks, their functional units, and their overall purpose in Machine Learning. It is important to understand how neural networks work, beginning from an understanding of sigmoid neurons and culminating in an overall appreciation for the function of neural networks in predictive analysis.
-\subsection{Objective 2}
-\textbf{Objective: } Have the ability to prepare data for use in neural networks in R. This objective includes the ability to identify and remove rows with empty data, normalizing the data to allow for learning over a smaller number of iterations, and fitting data curves to create the predictive function.
-\subsection{Objective 3}
-\textbf{Objective: } Be able to implement the neuralnet package in R. An understanding of the functionality that the neuralnet package provides, including creating the neural network, training it with a data set, and using it for predictive analysis, is imperative to this objective.
-\subsection{Objective 4}
-\textbf{Objective: } Perform cross-validation on the neural network to confirm understand its learning progress. This involves using statistical measures to see how the neural network is functioning during training and prediction.
-
+\begin{enumerate}
+\item Understand neural networks, their functional units, and their overall purpose in Machine Learning.
+It is important to understand how neural networks work, beginning from an understanding of sigmoid neurons and culminating in an overall appreciation for the function of neural networks in predictive analysis.
+\item Have the ability to prepare data for use in neural networks in R.
+This objective includes the ability to identify and remove rows with empty data, normalizing the data to allow for learning over a smaller number of iterations, and fitting data curves to create the predictive function.
+\item Be able to implement the neuralnet package in R.
+An understanding of the functionality that the neuralnet package provides, including creating the neural network, training it with a data set, and using it for predictive analysis, is imperative to this objective.
+\item Perform cross-validation on the neural network to confirm understand its learning progress.
+This involves using statistical measures to see how the neural network is functioning during training and prediction.
+\end{enumerate}
 \section{Case Study - Boston Housing Database}
 
-The Boston Housing Database is a databaase that contains the housing data from the boston area. It contains data on housing sales, including the area of the house sold, the location of the house, and other price-determining factors.\\
+The Boston Housing Database is a databaase that contains the housing data from the boston area.
+It contains data on housing sales, including the area of the house sold, the location of the house, and other price-determining factors.
 
 \subsection{Loading and Separating the Data}
 Create a R script file and enter the following code. This code will set up the environment for the neural network. We load the data into our scripting environment, modify it to fit the neuralnet package, and split it into a training and testing dataset. 
@@ -421,12 +405,3 @@ Download the file located at \url{https://github.com/nosyarg/textbookdata/blob/m
 This data comes from the Berkeley Earth Project.
 Once you have downloaded the data, run the following code:
 as relevant, and make December the prognosis variable
-
-\begin{thebibliography}{99}
-
-\bibitem{nielsen}
-Michael A. Nielsen,``Neural Networks and Deep Learning,'' Determination Press, 2015
-
-\end{thebibliography}
-
-\end{document}  

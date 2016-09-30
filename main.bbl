@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{nielsen}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3b32fb3a134f406f7b5107358d27befe}{Nielsen}{N\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Determination Press}%
+      }
+      \strng{namehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{fullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \field{labelalpha}{Nie15}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Neural Networks and Deep Learning}
+      \field{year}{2015}
+    \endentry
+    \entry{CRANR}{book}{}
+      \name{author}{2}{}{%
+        {{hash=97762a0dc8a21074d96bf7a2b2dd5f7a}{Seefield}{S\bibinitperiod}{Kim}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=602f68aab8192d3295aad8642eacb33d}{Linder}{L\bibinitperiod}{Ernst}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {University of New Hampshire}%
+      }
+      \strng{namehash}{679f0e8eb14569662f4b7db1028b9675}
+      \strng{fullhash}{679f0e8eb14569662f4b7db1028b9675}
+      \field{labelalpha}{SL07}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Statistics Using R with Biological Examples}
+      \field{year}{2007}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -10,8 +10,8 @@ These computers contain a neural network that has been trained to recognize hand
 
 \begin{figure}[h]
    \centering
-      \caption{The Parts of an Anatomical Neuron}
    \includegraphics[scale=0.75]{pictures/NeuralNetworks/neuron.jpg} 
+   \caption{The Parts of an Anatomical Neuron}
    \label{fig:neuron}
 \end{figure}
 
@@ -27,8 +27,8 @@ Finally, the aggregate sum of these inputs and their weights is used to calculat
 
 \begin{figure}[h]
     \centering
-        \caption{A neuron in a neural network, with binary inputs $x_1$, $x_2$, and $x_3$.}
     \includegraphics[scale=1.0]{pictures/NeuralNetworks/sigmoidNeuron.png}
+        \caption{A neuron in a neural network, with binary inputs $x_1$, $x_2$, and $x_3$.}
     \label{fig:sigmoidNeuron}
 \end{figure}
 
@@ -51,8 +51,8 @@ The first layer is known as the input layer, whilst the last layer is known as t
 All the neural layers in the middle are known as hidden layers. 
 \begin{figure}[h]
     \centering
-        \caption{A neural network with three layers: an input layer, a hidden layer, and an output layer.}
     \includegraphics[scale=0.75]{pictures/NeuralNetworks/neuralNetwork.png}
+        \caption{A neural network with three layers: an input layer, a hidden layer, and an output layer.}
     \label{fig:neuralNetwork}
 \end{figure}
 The sample neural network shown in figure \ref{fig:neuralNetwork} takes four inputs in the first layer and produces a singular output.
@@ -128,7 +128,6 @@ library(neuralnet)
 \end{figure}
 
 Note that safari automatically decompresses \texttt{.tgz} files to tar files, and this will cause errors when running the above code.
-
 The installation may throw a warning reminding the user that the package may be out-of-date when compared to the R version being used. 
 
 \section{Objectives of Case Study}
@@ -150,6 +149,7 @@ The Boston Housing Database is a databaase that contains the housing data from t
 It contains data on housing sales, including the area of the house sold, the location of the house, and other price-determining factors.
 
 \subsection{Loading and Separating the Data}
+
 Create a R script file and enter the following code. This code will set up the environment for the neural network. We load the data into our scripting environment, modify it to fit the neuralnet package, and split it into a training and testing dataset. 
 \begin{lstlisting}
 # Name:     neural.R

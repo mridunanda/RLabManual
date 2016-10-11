@@ -55,6 +55,22 @@
       \field{title}{Neural Networks and Deep Learning}
       \field{year}{2015}
     \endentry
+    \entry{Novomestky}{online}{}
+      \name{author}{1}{}{%
+        {{hash=eacc25250bc39200c4908095c377d179}{Novomestky}{N\bibinitperiod}{Frederick}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{eacc25250bc39200c4908095c377d179}
+      \strng{fullhash}{eacc25250bc39200c4908095c377d179}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cluster Analysis Data Sets}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://cran.r-project.org/web/packages/cluster.datasets/cluster.datasets.pdf
+      \endverb
+    \endentry
     \entry{CRANR}{book}{}
       \name{author}{2}{}{%
         {{hash=97762a0dc8a21074d96bf7a2b2dd5f7a}{Seefield}{S\bibinitperiod}{Kim}{K\bibinitperiod}{}{}{}{}}%

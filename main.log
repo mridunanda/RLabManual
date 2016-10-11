@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 OCT 2016 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 OCT 2016 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,7 +1523,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count345
 \@quotereset=\count346
-(./main.aux (./ANOVA.aux) (./neuralnetwork.aux) (./shiny.aux) (./desolve.aux))
+(./main.aux (./ANOVA.aux) (./neuralnetwork.aux) (./shiny.aux) (./desolve.aux)
+(./clustering.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -1652,7 +1653,7 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <35> not available
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <35> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 105.
 
-<pictures/chapterheadings/header_02.jpg, id=199, 2258.4375pt x 1279.78125pt>
+<pictures/chapterheadings/header_02.jpg, id=228, 2258.4375pt x 1279.78125pt>
 File: pictures/chapterheadings/header_02.jpg Graphic file (type jpg)
 
 <use pictures/chapterheadings/header_02.jpg>
@@ -1678,17 +1679,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
  []
 
 [2]
-<Pictures/ChapterHeadings/header_01.jpg, id=214, 2258.4375pt x 1279.78125pt>
+<Pictures/ChapterHeadings/header_01.jpg, id=242, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_01.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_01.jpg>
 Package pdftex.def Info: Pictures/ChapterHeadings/header_01.jpg used on input l
-ine 135.
+ine 131.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 135.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 135.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 131.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <12> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 5.
@@ -1704,30 +1705,32 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
  [3
 
- <./Pictures/ChapterHeadings/header_01.jpg>])
+ <./Pictures/ChapterHeadings/header_01.jpg>] [4])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [4]
-<Pictures/ChapterHeadings/header_03.jpg, id=320, 2258.4375pt x 1279.78125pt>
-File: Pictures/ChapterHeadings/header_03.jpg Graphic file (type jpg)
+ [5] [6
 
-<use Pictures/ChapterHeadings/header_03.jpg>
-Package pdftex.def Info: Pictures/ChapterHeadings/header_03.jpg used on input l
-ine 147.
+]
+<Pictures/ChapterHeadings/header_02.jpg, id=370, 2258.4375pt x 1279.78125pt>
+File: Pictures/ChapterHeadings/header_02.jpg Graphic file (type jpg)
+
+<use Pictures/ChapterHeadings/header_02.jpg>
+Package pdftex.def Info: Pictures/ChapterHeadings/header_02.jpg used on input l
+ine 139.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
- [5
-
- <./Pictures/ChapterHeadings/header_03.jpg>]
+ [7 <./Pictures/ChapterHeadings/header_02.jpg>]
 \openout2 = `ANOVA.aux'.
 
- (./ANOVA.tex [6
+ (./ANOVA.tex [8
 
 
 ]
 Chapter 1.
 \c@ttl@toc@default=\count355
+<Pictures/ChapterHeadings/header_03.jpg, id=381, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_03.jpg Graphic file (type jpg)
+
 <use Pictures/ChapterHeadings/header_03.jpg>
 Package pdftex.def Info: Pictures/ChapterHeadings/header_03.jpg used on input l
 ine 2.
@@ -1741,15 +1744,15 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7]
-<pictures/ANOVA/BoxPlotOpticalDensity.jpg, id=344, 427.5975pt x 516.93124pt>
+ [9 <./Pictures/ChapterHeadings/header_03.jpg>]
+<pictures/ANOVA/BoxPlotOpticalDensity.jpg, id=396, 427.5975pt x 516.93124pt>
 File: pictures/ANOVA/BoxPlotOpticalDensity.jpg Graphic file (type jpg)
 
 <use pictures/ANOVA/BoxPlotOpticalDensity.jpg>
 Package pdftex.def Info: pictures/ANOVA/BoxPlotOpticalDensity.jpg used on input
  line 62.
 (pdftex.def)             Requested size: 216.09877pt x 261.24146pt.
- [8]
+ [10]
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 95
 .
 
@@ -1795,18 +1798,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
- [9 <./pictures/ANOVA/BoxPlotOpticalDensity.jpg>] [10] [11]) [12]
+ [11 <./pictures/ANOVA/BoxPlotOpticalDensity.jpg>] [12] [13]) [14]
 \openout2 = `neuralnetwork.aux'.
 
  (./neuralnetwork.tex
 Chapter 2.
-File: Pictures/ChapterHeadings/header_03.jpg Graphic file (type jpg)
-<use Pictures/ChapterHeadings/header_03.jpg>
-Package pdftex.def Info: Pictures/ChapterHeadings/header_03.jpg used on input l
+<Pictures/ChapterHeadings/header_04.jpg, id=541, 2258.4375pt x 1279.78125pt>
+File: Pictures/ChapterHeadings/header_04.jpg Graphic file (type jpg)
+
+<use Pictures/ChapterHeadings/header_04.jpg>
+Package pdftex.def Info: Pictures/ChapterHeadings/header_04.jpg used on input l
 ine 1.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
 
-<pictures/NeuralNetworks/neuron.jpg, id=490, 313.17pt x 189.8292pt>
+<pictures/NeuralNetworks/neuron.jpg, id=543, 313.17pt x 189.8292pt>
 File: pictures/NeuralNetworks/neuron.jpg Graphic file (type jpg)
 
 <use pictures/NeuralNetworks/neuron.jpg>
@@ -1819,12 +1824,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
- [13
+ [15
 
 
 
- <./pictures/NeuralNetworks/neuron.jpg>]
-<pictures/NeuralNetworks/sigmoidNeuron.png, id=498, 281.05pt x 138.5175pt>
+ <./Pictures/ChapterHeadings/header_04.jpg> <./pictures/NeuralNetworks/neuron.j
+pg>]
+<pictures/NeuralNetworks/sigmoidNeuron.png, id=550, 281.05pt x 138.5175pt>
 File: pictures/NeuralNetworks/sigmoidNeuron.png Graphic file (type png)
 
 <use pictures/NeuralNetworks/sigmoidNeuron.png>
@@ -1832,7 +1838,7 @@ Package pdftex.def Info: pictures/NeuralNetworks/sigmoidNeuron.png used on inpu
 t line 30.
 (pdftex.def)             Requested size: 281.0493pt x 138.51715pt.
 
-<pictures/NeuralNetworks/neuralNetwork.png, id=500, 397.485pt x 211.79124pt>
+<pictures/NeuralNetworks/neuralNetwork.png, id=552, 397.485pt x 211.79124pt>
 File: pictures/NeuralNetworks/neuralNetwork.png Graphic file (type png)
 
 <use pictures/NeuralNetworks/neuralNetwork.png>
@@ -1843,14 +1849,14 @@ t line 54.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./pictures/NeuralNetworks/sigmoidNeuron.png>] [15 <./pictures/NeuralNetwor
+[16 <./pictures/NeuralNetworks/sigmoidNeuron.png>] [17 <./pictures/NeuralNetwor
 ks/neuralNetwork.png>]
 Overfull \hbox (13.8915pt too wide) in paragraph at lines 106--120
 \T1/ptm/m/n/10.95 (-20) The neu-ral-net pack-age can be found at []$\T1/cmtt/m/
 n/10.95 https : / / cran . r-[]project . org / web / packages / neuralnet /
  []
 
-[16] [17]
+[18] [19]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 195.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -1859,25 +1865,27 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 195.
 
-[18] [19] [20] [21])
-Overfull \hbox (63.35162pt too wide) in paragraph at lines 404--154
+[20] [21] [22] [23])
+Overfull \hbox (63.35162pt too wide) in paragraph at lines 404--150
 \T1/ptm/m/n/10.95 (-20) Download the file lo-cated at []$\T1/cmtt/m/n/10.95 htt
 ps : / / github . com / nosyarg / textbookdata / blob / master / berkeleyusdata
  .
  []
 
-[22]
+[24]
 \openout2 = `shiny.aux'.
 
  (./shiny.tex
 Chapter 3.
-File: Pictures/ChapterHeadings/header_03.jpg Graphic file (type jpg)
-<use Pictures/ChapterHeadings/header_03.jpg>
-Package pdftex.def Info: Pictures/ChapterHeadings/header_03.jpg used on input l
+<Pictures/ChapterHeadings/header_05.jpg, id=822, 2258.4375pt x 1279.78125pt>
+File: Pictures/ChapterHeadings/header_05.jpg Graphic file (type jpg)
+
+<use Pictures/ChapterHeadings/header_05.jpg>
+Package pdftex.def Info: Pictures/ChapterHeadings/header_05.jpg used on input l
 ine 1.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
 
-<pictures/shiny/shiny.PNG, id=769, 701.62125pt x 421.575pt>
+<pictures/shiny/shiny.PNG, id=823, 701.62125pt x 421.575pt>
 File: pictures/shiny/shiny.PNG Graphic file (type png)
 
 <use pictures/shiny/shiny.PNG>
@@ -1888,30 +1896,30 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 
 Underfull \vbox (badness 6575) has occurred while \output is active []
 
- [23
+ [25
 
 
 
- <./pictures/shiny/shiny.PNG>]
+ <./Pictures/ChapterHeadings/header_05.jpg> <./pictures/shiny/shiny.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-[24] [25] <pictures/shiny/blank.PNG, id=818, 674.52pt x 338.01282pt>
+[26] [27] <pictures/shiny/blank.PNG, id=871, 674.52pt x 338.01282pt>
 File: pictures/shiny/blank.PNG Graphic file (type png)
 
 <use pictures/shiny/blank.PNG>
 Package pdftex.def Info: pictures/shiny/blank.PNG used on input line 116.
 (pdftex.def)             Requested size: 216.09877pt x 108.29008pt.
- [26 <./pictures/shiny/blank.PNG>]
-<pictures/shiny/dropdown.PNG, id=847, 696.35156pt x 327.47343pt>
+ [28 <./pictures/shiny/blank.PNG>]
+<pictures/shiny/dropdown.PNG, id=900, 696.35156pt x 327.47343pt>
 File: pictures/shiny/dropdown.PNG Graphic file (type png)
 
 <use pictures/shiny/dropdown.PNG>
 Package pdftex.def Info: pictures/shiny/dropdown.PNG used on input line 148.
 (pdftex.def)             Requested size: 216.09877pt x 101.62564pt.
 
-<pictures/shiny/pop.PNG, id=849, 723.45282pt x 449.42906pt>
+<pictures/shiny/pop.PNG, id=902, 723.45282pt x 449.42906pt>
 File: pictures/shiny/pop.PNG Graphic file (type png)
 
 <use pictures/shiny/pop.PNG>
@@ -1921,44 +1929,46 @@ Package pdftex.def Info: pictures/shiny/pop.PNG used on input line 184.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27 <./pictures/shiny/dropdown.PNG>]
-<pictures/shiny/olympic.PNG, id=871, 706.89093pt x 365.86688pt>
+[29 <./pictures/shiny/dropdown.PNG>]
+<pictures/shiny/olympic.PNG, id=925, 706.89093pt x 365.86688pt>
 File: pictures/shiny/olympic.PNG Graphic file (type png)
 
 <use pictures/shiny/olympic.PNG>
 Package pdftex.def Info: pictures/shiny/olympic.PNG used on input line 210.
 (pdftex.def)             Requested size: 216.09877pt x 111.84882pt.
- [28 <./pictures/shiny/pop.PNG> <./pictures/shiny/olympic.PNG>]
+ [30 <./pictures/shiny/pop.PNG> <./pictures/shiny/olympic.PNG>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-[30]) [31]
+ [31]
+[32]) [33]
 \openout2 = `desolve.aux'.
 
- (./desolve.tex [32
+ (./desolve.tex [34
 
 
 
 ]
 Chapter 4.
-File: Pictures/ChapterHeadings/header_03.jpg Graphic file (type jpg)
-<use Pictures/ChapterHeadings/header_03.jpg>
-Package pdftex.def Info: Pictures/ChapterHeadings/header_03.jpg used on input l
+<Pictures/ChapterHeadings/header_06.jpg, id=1101, 2258.4375pt x 1279.78125pt>
+File: Pictures/ChapterHeadings/header_06.jpg Graphic file (type jpg)
+
+<use Pictures/ChapterHeadings/header_06.jpg>
+Package pdftex.def Info: Pictures/ChapterHeadings/header_06.jpg used on input l
 ine 1.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
- [33]
-<pictures/diffeq/mass-spring.jpeg, id=1054, 375.4025pt x 111.41624pt>
+ [35 <./Pictures/ChapterHeadings/header_06.jpg>]
+<pictures/diffeq/mass-spring.jpeg, id=1108, 375.4025pt x 111.41624pt>
 File: pictures/diffeq/mass-spring.jpeg Graphic file (type jpg)
 
 <use pictures/diffeq/mass-spring.jpeg>
 Package pdftex.def Info: pictures/diffeq/mass-spring.jpeg used on input line 82
 .
 (pdftex.def)             Requested size: 426.79134pt x 126.67581pt.
- [34]
+ [36]
 Underfull \vbox (badness 3396) has occurred while \output is active []
 
- [35 <./pictures/diffeq/mass-spring.jpeg>] [36]
-<pictures/diffeq/plot1.png, id=1084, 485.56406pt x 325.215pt>
+ [37 <./pictures/diffeq/mass-spring.jpeg>] [38]
+<pictures/diffeq/plot1.png, id=1140, 485.56406pt x 325.215pt>
 File: pictures/diffeq/plot1.png Graphic file (type png)
 
 <use pictures/diffeq/plot1.png>
@@ -1968,7 +1978,7 @@ Package pdftex.def Info: pictures/diffeq/plot1.png used on input line 212.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diffeq/plot2.png, id=1085, 485.56406pt x 325.215pt>
+<pictures/diffeq/plot2.png, id=1141, 485.56406pt x 325.215pt>
 File: pictures/diffeq/plot2.png Graphic file (type png)
 
 <use pictures/diffeq/plot2.png>
@@ -1980,7 +1990,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 225.
-[37] <pictures/diffeq/plot3.png, id=1119, 485.56406pt x 325.215pt>
+[39] <pictures/diffeq/plot3.png, id=1173, 485.56406pt x 325.215pt>
 File: pictures/diffeq/plot3.png Graphic file (type png)
 
 <use pictures/diffeq/plot3.png>
@@ -1990,7 +2000,7 @@ Package pdftex.def Info: pictures/diffeq/plot3.png used on input line 263.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diffeq/plot4.png, id=1120, 485.56406pt x 325.215pt>
+<pictures/diffeq/plot4.png, id=1174, 485.56406pt x 325.215pt>
 File: pictures/diffeq/plot4.png Graphic file (type png)
 
 <use pictures/diffeq/plot4.png>
@@ -2000,8 +2010,8 @@ Package pdftex.def Info: pictures/diffeq/plot4.png used on input line 270.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38 <./pictures/diffeq/plot1.png>] [39 <./pictures/diffeq/plot2.png>]
-<pictures/diffeq/img1.png, id=1151, 408.77719pt x 478.78876pt>
+[40 <./pictures/diffeq/plot1.png>] [41 <./pictures/diffeq/plot2.png>]
+<pictures/diffeq/img1.png, id=1205, 408.77719pt x 478.78876pt>
 File: pictures/diffeq/img1.png Graphic file (type png)
 
 <use pictures/diffeq/img1.png>
@@ -2011,8 +2021,8 @@ Package pdftex.def Info: pictures/diffeq/img1.png used on input line 301.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40 <./pictures/diffeq/plot3.png>]
-<pictures/diffeq/img2.png, id=1157, 469.00218pt x 237.13594pt>
+[42 <./pictures/diffeq/plot3.png>]
+<pictures/diffeq/img2.png, id=1211, 469.00218pt x 237.13594pt>
 File: pictures/diffeq/img2.png Graphic file (type png)
 
 <use pictures/diffeq/img2.png>
@@ -2022,8 +2032,8 @@ Package pdftex.def Info: pictures/diffeq/img2.png used on input line 335.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41 <./pictures/diffeq/plot4.png>] [42 <./pictures/diffeq/img1.png>]
-<pictures/diffeq/plot5.png, id=1189, 485.56406pt x 325.215pt>
+[43 <./pictures/diffeq/plot4.png>] [44 <./pictures/diffeq/img1.png>]
+<pictures/diffeq/plot5.png, id=1245, 485.56406pt x 325.215pt>
 File: pictures/diffeq/plot5.png Graphic file (type png)
 
 <use pictures/diffeq/plot5.png>
@@ -2032,8 +2042,8 @@ Package pdftex.def Info: pictures/diffeq/plot5.png used on input line 381.
 
 Underfull \vbox (badness 6477) has occurred while \output is active []
 
- [43 <./pictures/diffeq/img2.png> <./pictures/diffeq/plot5.png>]
-<pictures/diffeq/img3.png, id=1204, 898.85812pt x 342.5297pt>
+ [45 <./pictures/diffeq/img2.png> <./pictures/diffeq/plot5.png>]
+<pictures/diffeq/img3.png, id=1259, 898.85812pt x 342.5297pt>
 File: pictures/diffeq/img3.png Graphic file (type png)
 
 <use pictures/diffeq/img3.png>
@@ -2048,30 +2058,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-[44 <./pictures/diffeq/img3.png>]
-<pictures/diffeq/activator.png, id=1212, 324.46219pt x 166.37157pt>
+[46 <./pictures/diffeq/img3.png>]
+<pictures/diffeq/activator.png, id=1267, 324.46219pt x 166.37157pt>
 File: pictures/diffeq/activator.png Graphic file (type png)
 
 <use pictures/diffeq/activator.png>
 Package pdftex.def Info: pictures/diffeq/activator.png used on input line 439.
 (pdftex.def)             Requested size: 216.09877pt x 110.8083pt.
 
-<pictures/diffeq/Repressors.PNG, id=1213, 265.74281pt x 152.06813pt>
+<pictures/diffeq/Repressors.PNG, id=1268, 265.74281pt x 152.06813pt>
 File: pictures/diffeq/Repressors.PNG Graphic file (type png)
 
 <use pictures/diffeq/Repressors.PNG>
 Package pdftex.def Info: pictures/diffeq/Repressors.PNG used on input line 444.
 
 (pdftex.def)             Requested size: 216.09877pt x 123.66177pt.
- [45 <./pictures/diffeq/activator.png> <./pictures/diffeq/Repressors.PNG>]
-<pictures/diffeq/activatorplot.png, id=1222, 437.635pt x 384.43625pt>
+ [47 <./pictures/diffeq/activator.png> <./pictures/diffeq/Repressors.PNG>]
+<pictures/diffeq/activatorplot.png, id=1277, 437.635pt x 384.43625pt>
 File: pictures/diffeq/activatorplot.png Graphic file (type png)
 
 <use pictures/diffeq/activatorplot.png>
 Package pdftex.def Info: pictures/diffeq/activatorplot.png used on input line 4
 85.
 (pdftex.def)             Requested size: 216.09877pt x 189.83017pt.
- [46 <./pictures/diffeq/activatorplot.png>] <pictures/diffeq/plot6.png, id=1253
+ [48 <./pictures/diffeq/activatorplot.png>] <pictures/diffeq/plot6.png, id=1307
 , 647.41875pt x 451.6875pt>
 File: pictures/diffeq/plot6.png Graphic file (type png)
 
@@ -2082,38 +2092,85 @@ Package pdftex.def Info: pictures/diffeq/plot6.png used on input line 552.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47]) [48 <./pictures/diffeq/plot6.png>]
-File: Pictures/ChapterHeadings/header_03.jpg Graphic file (type jpg)
+[49]) [50 <./pictures/diffeq/plot6.png>]
+\openout2 = `clustering.aux'.
 
-<use Pictures/ChapterHeadings/header_03.jpg>
-Package pdftex.def Info: Pictures/ChapterHeadings/header_03.jpg used on input l
-ine 159.
+ (./clustering.tex
+Chapter 5.
+<Pictures/ChapterHeadings/header_07.jpg, id=1360, 2258.4375pt x 1279.78125pt>
+File: Pictures/ChapterHeadings/header_07.jpg Graphic file (type jpg)
+
+<use Pictures/ChapterHeadings/header_07.jpg>
+Package pdftex.def Info: Pictures/ChapterHeadings/header_07.jpg used on input l
+ine 1.
+(pdftex.def)             Requested size: 614.295pt x 348.10371pt.
+ [51
+
+
+
+ <./Pictures/ChapterHeadings/header_07.jpg>] [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+<pictures/clustering/Kmeans.jpeg, id=1465, 386.94562pt x 411.78844pt>
+File: pictures/clustering/Kmeans.jpeg Graphic file (type jpg)
+
+<use pictures/clustering/Kmeans.jpeg>
+Package pdftex.def Info: pictures/clustering/Kmeans.jpeg used on input line 193
+.
+(pdftex.def)             Requested size: 216.09877pt x 229.9716pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pictures/clustering/Tree.jpeg, id=1466, 386.94562pt x 411.78844pt>
+File: pictures/clustering/Tree.jpeg Graphic file (type jpg)
+
+<use pictures/clustering/Tree.jpeg>
+Package pdftex.def Info: pictures/clustering/Tree.jpeg used on input line 201.
+(pdftex.def)             Requested size: 216.09877pt x 229.9716pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+ [54])
+No file main.nls.
+[55 <./pictures/clustering/Kmeans.jpeg>] [56 <./pictures/clustering/Tree.jpeg>]
+<Pictures/ChapterHeadings/header_08.jpg, id=1525, 2258.4375pt x 1279.78125pt>
+File: Pictures/ChapterHeadings/header_08.jpg Graphic file (type jpg)
+
+<use Pictures/ChapterHeadings/header_08.jpg>
+Package pdftex.def Info: Pictures/ChapterHeadings/header_08.jpg used on input l
+ine 166.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
- [49
+ [57
 
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
- (./main.aux (./ANOVA.aux)
-(./neuralnetwork.aux) (./shiny.aux) (./desolve.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+ <./Pictures/ChapterHeadings/header_08.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+ (./main.aux (./ANOVA.aux) (./neuralnetwork.aux) (./shiny.aux)
+(./desolve.aux) (./clustering.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4C588624521E03C2C061CECBA57303A5;3360.
+(rerunfilecheck)             Checksum: 39F95276553CB8607F4CAD3A70CB0172;3790.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35764 strings out of 493089
- 645805 string characters out of 6134842
- 1354272 words of memory out of 5000000
- 37594 multiletter control sequences out of 15000+600000
- 98102 words of font info for 255 fonts, out of 8000000 for 9000
+ 36006 strings out of 493089
+ 649979 string characters out of 6134842
+ 1360029 words of memory out of 5000000
+ 37663 multiletter control sequences out of 15000+600000
+ 98785 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,13n,59p,10507b,3256s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -2130,10 +2187,10 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
 rw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (49 pages, 3533203 bytes).
+Output written on main.pdf (57 pages, 12008086 bytes).
 PDF statistics:
- 1539 PDF objects out of 1728 (max. 8388607)
- 1369 compressed objects within 14 object streams
- 812 named destinations out of 1000 (max. 500000)
- 50186 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1792 PDF objects out of 2073 (max. 8388607)
+ 1597 compressed objects within 16 object streams
+ 959 named destinations out of 1000 (max. 500000)
+ 50282 words of extra memory for PDF output out of 51595 (max. 10000000)
 

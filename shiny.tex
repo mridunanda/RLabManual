@@ -143,7 +143,7 @@ We also need to tell the application that our plot will be displayed in the main
     plotOutput(outputId = "myPlot")
  )
 \end{lstlisting}
-Just like in selectInput, we need to give the output an ID, so we can use that name to access it in the server function.
+Just like in \texttt{selectInput}, we need to give the output an ID, so we can use that name to access it in the server function.
 Once the model is run, the application should look like figure \ref{fig:drop}. 
 \begin{figure}[h]
    \centering
@@ -151,8 +151,19 @@ Once the model is run, the application should look like figure \ref{fig:drop}.
    \caption{Adding Inputs}
    \label{fig:drop}
 \end{figure}
-Next we need to define the server-side of the application which will accept inputs and compute outputs. Our server function will contain the code necessary to do this. We first tell the function that we are creating a plot as an output, and we can create the plot using the renderPlot command. The command renderPlot is what makes the application react. This means when a user changes the input, the output will instantly change. This is what makes Shiny so interactive.\\
-Within the renderPlot function we first select what data we will use and then plot that data using the ggplot function. To select our data, create a variable called dataInput, and take a subset of the csv file we imported into R. We want to take only the data that the user specified, so instead of importing all the age group data, we only import the age group that the user selected. We can access that specific age group using input\$age. The ggplot function takes in various inputs, such as the data, the variables, and the title. The aes function within ggplot indicates which axis is given to which variable, while the geom\_point function draws the points on the graph. The ggtitle function creates a title over the plot. The completed server function should look like this: 
+Next we need to define the server-side of the application which will accept inputs and compute outputs.
+Our server function will contain the code necessary to do this.
+We first tell the function that we are creating a plot as an output, and we can create the plot using the renderPlot command.
+The command renderPlot is what makes the application react.
+This means when a user changes the input, the output will instantly change. This is what makes Shiny so interactive.\\
+Within the renderPlot function we first select what data we will use and then plot that data using the ggplot function.
+To select our data, create a variable called \texttt{dataInput}, and take a subset of the \texttt{.csv} file we imported into R.
+We want to take only the data that the user specified, so instead of importing all the age group data, we only import the age group that the user selected.
+We can access that specific age group using \texttt{input\$age}.
+The \texttt{ggplot} function takes in various inputs, such as the data, the variables, and the title.
+The \texttt{aes} function within \texttt{ggplot} indicates which axis is given to which variable, while the \texttt{geom\_point} function draws the points on the graph.
+The \texttt{ggtitle} function creates a title over the plot.
+The completed \texttt{server} function should look like this: 
 \begin{lstlisting}[language = R]
 server <- function(input, output) {
   output\$myPlot <- renderPlot({
@@ -167,7 +178,7 @@ server <- function(input, output) {
   
 }
 \end{lstlisting}
-Finally, run the entire code including the shinyApp command.
+Finally, run the entire code including the \texttt{shinyApp} command.
 Your screen should look like the screen displayed in Figure \ref{fig:example}.
 The application should have a working select box, a title, and a plot displaying the population data.
 \begin{figure}[h]
@@ -185,9 +196,12 @@ This model will display Olympic swimming times over the modern Olympics.
 The variables for this model include time, year, and medal.
 The inputs are the event and gender of the swimmer.
 The graph should display the medaling times for each event and gender for each year of the modern Olympics.
-The data for this project is found within the SwimmingExampleM dataset provided. 
+The data for this project is found within the \texttt{SwimmingExampleM} dataset provided. 
 \subsection{Programming Hints}
- In the deliverable you will need to be able to add color to the model. It is quite simple. In the previous section we explained that the ggplot command makes the actual plot. In order to create color we just add \textbf{color =} some variable, inside the aes() function.
+In the deliverable you will need to be able to add color to the model.
+It is quite simple.
+In the previous section we explained that the \texttt{ggplot} command makes the actual plot.
+In order to create color we just add \texttt{color = variablename}, inside the \texttt{aes()} function.
 
 \begin{lstlisting}[language = R]
 aes(x=Time, y=Year, color=Medal)

@@ -34,3 +34,17 @@
 \BOOKMARK [1][-]{section.3.5}{Teaching Code}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.6}{Example Student Code}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.7}{Further Readings}{chapter.3}% 36
+\BOOKMARK [0][-]{chapter.4}{deSolve}{}% 37
+\BOOKMARK [1][-]{section.4.1}{Introduction to Computational Differential Solutions}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.1.1}{Examples of Differential Equations}{section.4.1}% 39
+\BOOKMARK [1][-]{section.4.2}{Installation}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.3}{Objectives of Case Study}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.4}{Case Study - Dampened Mass-Spring System}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.4.1}{Computational Solutions}{section.4.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.2}{Improving the System}{section.4.4}% 44
+\BOOKMARK [1][-]{section.4.5}{Student Assignment - Modelling of Genetic Processes}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.5.1}{Constitutive Gene Expression}{section.4.5}% 46
+\BOOKMARK [2][-]{subsection.4.5.2}{Gene Transcription Regulation}{section.4.5}% 47
+\BOOKMARK [2][-]{subsection.4.5.3}{Regulation}{section.4.5}% 48
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.7}{Acknowledgements}{chapter.4}% 50

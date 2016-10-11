@@ -19,6 +19,26 @@
 
 \refsection{0}
   \sortlist{nyt}{nyt}
+    \entry{chasnov}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d06ce85033a3091210597e2ceb27fafb}{Chasnov}{C\bibinitperiod}{Jeffrey\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Hong Kong University of Science}%
+        {Technology}%
+      }
+      \strng{namehash}{d06ce85033a3091210597e2ceb27fafb}
+      \strng{fullhash}{d06ce85033a3091210597e2ceb27fafb}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Differential Equations}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.math.ust.hk/~machas/differential-equations.pdf
+      \endverb
+    \endentry
     \entry{nielsen}{book}{}
       \name{author}{1}{}{%
         {{hash=3b32fb3a134f406f7b5107358d27befe}{Nielsen}{N\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
@@ -28,7 +48,6 @@
       }
       \strng{namehash}{3b32fb3a134f406f7b5107358d27befe}
       \strng{fullhash}{3b32fb3a134f406f7b5107358d27befe}
-      \field{labelalpha}{Nie15}
       \field{sortinit}{N}
       \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
       \field{labelnamesource}{author}
@@ -46,13 +65,61 @@
       }
       \strng{namehash}{679f0e8eb14569662f4b7db1028b9675}
       \strng{fullhash}{679f0e8eb14569662f4b7db1028b9675}
-      \field{labelalpha}{SL07}
       \field{sortinit}{S}
       \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Statistics Using R with Biological Examples}
       \field{year}{2007}
+    \endentry
+    \entry{gallery}{online}{}
+      \list{publisher}{1}{%
+        {Rstudio}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeltitlesource}{title}
+      \field{day}{08}
+      \field{month}{09}
+      \field{title}{Shiny - Movie Explorer}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://shiny.rstudio.com/gallery/movie-explorer.html
+      \endverb
+    \endentry
+    \entry{stan}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a3dc6a6617b2e9a04207a448c0abb871}{Stan}{S\bibinitperiod}{Guy-Bart}{G\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Imperial College of London}%
+      }
+      \strng{namehash}{a3dc6a6617b2e9a04207a448c0abb871}
+      \strng{fullhash}{a3dc6a6617b2e9a04207a448c0abb871}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modelling in Biology}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://www.bg.ic.ac.uk/research/g.stan/2010_Course_MiB_article.pdf
+      \endverb
+    \endentry
+    \entry{shiny}{online}{}
+      \list{publisher}{1}{%
+        {Rstudio}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labeltitlesource}{title}
+      \field{day}{08}
+      \field{month}{09}
+      \field{title}{Teach Yourself Shiny}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://shiny.rstudio.com/tutorial/
+      \endverb
     \endentry
   \endsortlist
 \endrefsection

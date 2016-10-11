@@ -40,15 +40,13 @@ Here are some of the output functions in Shiny:
 Understanding how inputs and outputs relate to each other is a key requirement for developing a Shiny app. In the model students will create today, the inputs will be dropdown boxes (selectInput) and the output will be a simple scatterplot (plotOutput). 
 
 \section{Objectives}
-
-Students will be expected to learn the basic components of a Shiny App. Students will create their own application after learning the fundamentals of the package. This application will illustrate the progression of Olympic swimming medalists' times since the modern Olympics began. 
-
-\subsection{Objective 1}
-By the end of this lesson the student will understand the various parts of a Shiny app, while building a simple population prediction application.
-
-\subsection{Objective 2}
-Students will also be able to create their own Shiny apps from scratch, and will be expected to create a Shiny app displaying Olympic swimming times over various events and years.
- 
+Students will be expected to learn the basic components of a Shiny App.
+Students will create their own application after learning the fundamentals of the package.
+This application will illustrate the progression of Olympic swimming medalists' times since the modern Olympics began. 
+\begin{itemize}
+\item By the end of this lesson the student will understand the various parts of a Shiny app, while building a simple population prediction application.
+\item Students will also be able to create their own Shiny apps from scratch, and will be expected to create a Shiny app displaying Olympic swimming times over various events and years.
+\end{itemize}
 \section{Building the Model}
 
 Shiny applications have a wide variety of uses. Today students will learn how to create a basic population prediction model. \\
@@ -206,7 +204,7 @@ In order to create color we just add \texttt{color = variablename}, inside the \
 \begin{lstlisting}[language = R]
 aes(x=Time, y=Year, color=Medal)
 \end{lstlisting}
-The final shiny app screen should look like figure \ref{olympic}
+The final shiny app screen should look like figure \ref{fig:olympic}
 \begin{figure}[h]
    \centering
    \includegraphics[width = .5\textwidth]{pictures/shiny/olympic.PNG} 

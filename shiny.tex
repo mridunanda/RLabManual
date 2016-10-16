@@ -9,9 +9,9 @@ In this lab, you will learn how to create a basic Shiny application.
    \centering
    \includegraphics[width = 0.5\textwidth]{pictures/shiny/shiny.PNG} 
    \caption{Sample Shiny app}
-   \label{fig:model}
+   \label{fig:sampleapp}
 \end{figure}
-\noindent Look at the picture in Figure \ref{fig:model}.
+\noindent Look at the picture in Figure \ref{fig:sampleapp}.
 \cite{gallery} This is a sample Shiny app depicting a graph of many famous movies.
 The graph plots movies based on their rating and the number of reviews it has on Rotten Tomatoes.
 On the left of the graph you find various inputs, such as Oscars and genres, that can customize the output of the graph.
@@ -37,7 +37,8 @@ Here are some of the output functions in Shiny:
     \item textOutput: creates text
 \end{itemize}
 
-Understanding how inputs and outputs relate to each other is a key requirement for developing a Shiny app. In the model students will create today, the inputs will be dropdown boxes (selectInput) and the output will be a simple scatterplot (plotOutput). 
+Understanding how inputs and outputs relate to each other is a key requirement for developing a Shiny app.
+In the model students will create today, the inputs will be dropdown boxes (selectInput) and the output will be a simple scatterplot (plotOutput). 
 
 \section{Objectives}
 Students will be expected to learn the basic components of a Shiny App.
@@ -49,7 +50,7 @@ This application will illustrate the progression of Olympic swimming medalists' 
 \end{itemize}
 \section{Building the Model}
 
-Shiny applications have a wide variety of uses. Today students will learn how to create a basic population prediction model. \\
+Shiny applications have a wide variety of uses. Today students will learn how to create a basic population prediction model. 
 
 \noindent To begin the application, open a new R script file in RStudio, clear the environment, set a working directory, and import the libraries necessary for this project. To clear the environment and set a directory use the following functions. Make sure you set a directory on your computer that the dataset is located in. 
 
@@ -98,13 +99,16 @@ ui <- shinyUI(fluidPage(
   mainPanel()
 ))
 \end{lstlisting}
-Next, define a skeletal server implementation. This can be done by creating a function called server with two parameters: input and output.
+Next, define a skeletal server implementation.
+This can be done by creating a function called server with two parameters: input and output.
 \begin{lstlisting}[language = R]
 server <- function(input, output) {
 
 }
 \end{lstlisting}
-The server function will be empty to begin with, but it will eventually be used to set relationships between the inputs and outputs of the application. At the end of your code, we need to call the shiny function so the application will run. To do that use the following syntax: 
+The server function will be empty to begin with, but it will eventually be used to set relationships between the inputs and outputs of the application.
+At the end of your code, we need to call the shiny function so the application will run.
+To do that use the following syntax: 
 \begin{lstlisting}[language = R]
 shinyApp(ui = ui, server = server)
 \end{lstlisting}
@@ -117,7 +121,9 @@ The blank Shiny application should open in a new window as shown in figure \ref{
    \caption{Blank Shiny App}
    \label{fig:blank}
 \end{figure}
-To begin the model, we need to display the inputs of our program in the sidebar panel of the application. Our program is taking age group as an input and displaying a plot showing the predicted populations of that age group in North Carolina over the next five years. To do this, we will create a selectInput with all of the age groups as choices, like so:
+To begin the model, we need to display the inputs of our program in the sidebar panel of the application.
+Our program is taking age group as an input and displaying a plot showing the predicted populations of that age group in North Carolina over the next five years.
+To do this, we will create a selectInput with all of the age groups as choices, like so:
 \begin{lstlisting}[language = R]
 sidebarPanel(
     selectInput(
@@ -134,8 +140,11 @@ sidebarPanel(
     )
   )
 \end{lstlisting}
-The inputId is simply a name that we give to each input, so we can access them in the server function. The label is the text that will appear on the application above the input box. \\
-We also need to tell the application that our plot will be displayed in the main panel of the UI. This involves creating a plotOuput, like so: 
+The inputId is simply a name that we give to each input, so we can access them in the server function.
+The label is the text that will appear on the application above the input box.
+
+We also need to tell the application that our plot will be displayed in the main panel of the UI.
+This involves creating a plotOuput, like so: 
 \begin{lstlisting}[language = R]
  mainPanel(
     plotOutput(outputId = "myPlot")
@@ -153,7 +162,8 @@ Next we need to define the server-side of the application which will accept inpu
 Our server function will contain the code necessary to do this.
 We first tell the function that we are creating a plot as an output, and we can create the plot using the renderPlot command.
 The command renderPlot is what makes the application react.
-This means when a user changes the input, the output will instantly change. This is what makes Shiny so interactive.\\
+This means when a user changes the input, the output will instantly change. This is what makes Shiny so interactive.
+
 Within the renderPlot function we first select what data we will use and then plot that data using the ggplot function.
 To select our data, create a variable called \texttt{dataInput}, and take a subset of the \texttt{.csv} file we imported into R.
 We want to take only the data that the user specified, so instead of importing all the age group data, we only import the age group that the user selected.

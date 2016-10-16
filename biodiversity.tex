@@ -19,7 +19,7 @@ There are many sources of biodiversity data including: directed surveys, broad-s
 \subsection{Direct Surveys}
 
 Directed surveys are often used where prior knowledge of a given system or biological mechanism exists.
-Surveys for this type of experiment are designed to control for known sources of variation\cite {GBIF}.
+Surveys for this type of experiment are designed to control for known sources of variation\cite {GBIFbirds}.
 Direct surveys aim to establish a casual relationship between some experimental treatment and its effect and are widely accepted in the scientific community.
 Regardless, the data collected in this type of survey is extremely expensive.
 Additionally, the data is aggregated by many researchers working independently in small areas over small time scales, which creates a network of heterogeneous data repositories with little opportunity for integration and eventual data degradation.
@@ -27,7 +27,7 @@ Additionally, the data is aggregated by many researchers working independently i
 \subsection{Broad  Surveys}
 
 Broad-scale surveys involve over ten million observations annually.
-This data is used to generate probabilistic estimates of species occurrence, which can then be used to determine general patterns over broad geographic regions and time scales \cite {GBIF}.
+This data is used to generate probabilistic estimates of species occurrence, which can then be used to determine general patterns over broad geographic regions and time scales \cite {GBIFbirds}.
 Data for broad surveys can be collected by anyone, ranging from trained observers to interested citizens.
 As a result, these surveys are relatively inexpensive to operate; however, the regulations behind these surveys are more relaxed, resulting in more potential for bias.
 Nonetheless, these studies provide the bulk of non-specimen observational data available via the Internet \cite {SP}.
@@ -109,7 +109,7 @@ Grids are 1-degree cells, build with the getcellid function.
 Record-density maps apply a color gradient according to the number of records in the cell.
 Species-density maps apply a color gradient according to the number of different species in the cell, disregarding the number of records.
 Completeness maps apply a color gradient according to the completeness index, from 0 (incomplete) to 1 (complete).
-Use the following function to generate a map grid as shown in figure \ref{fig:mapgrid}
+Use the following function to generate a map grid as shown in figure \ref{fig:Mapgrid}
 
 \begin{lstlisting}
 mapgrid(comp,ptype='complete')
@@ -152,7 +152,7 @@ distrigraph(birds,ptype="efforts",col="red",type="s")
    \includegraphics[scale=0.35]{pictures/biodiversity/distrograph1.jpg}
    \includegraphics[scale=0.35]{pictures/biodiversity/distrograph2.jpg}
    \caption{Left: Distrigraph 1, Right: Distrigraph 2}
-   \label{fig:Distrigraph1}
+   \label{fig:distrigraph1}
 \end{figure}
 
 
@@ -255,38 +255,3 @@ distrigraph(spider,ptype="species",ylab="Species")
 distrigraph(spider,ptype="efforts",col="red") 
 distrigraph(spider,ptype="efforts",col="red",type="s") 
 \end{lstlisting}
-
-%\section{Further Readings}
-%Suggest other things that the student might read.
-
-\begin{thebibliography}{99}
-
-\bibitem{GBIF}
-Kelling, S. 2008. Significance of organism observations: Data discovery and access in biodiversity research. Report for the Global Biodiversity Information Facility, Copenhagen. 20 pp. Available online at \url{http://www.gbif.org/orc/?doc_id=1642.}
-
-\bibitem{SP}
-Shanmughavel, P. (2007). An overview on biodiversity information in databases. Bioinformation, 1(9), 367–9. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/17597923
-
-\bibitem{Barve}
-Barve, V. (2014). Discovering and developing primary biodiversity data from social networking sites: A novel approach. Ecological Informatics, 24, 194–199. http://doi.org/10.1016/j.ecoinf.2014.08.008
-
-\bibitem{rdoc}
-RDocumentation. Web. 09 Oct. 2016."Search All 11,558 CRAN, BioConductor and Github Packages." https://www.rdocumentation.org
-
-\bibitem{vbarve}
-Vijay Barve. Web. 09 Oct. 2016. "Vijay Barve." https://vijaybarve.wordpress.com/tag/bdvis/
-
-\bibitem{rblog}
-Rbloggers. 08 May 2014. Web. 09 Oct. 2016. "Package Bdvis Is on CRAN." https://www.r-bloggers.com/package-bdvis-is-on-cran/
-
-\bibitem{inat}
-Accessing INaturalist Data. Web. 09 Oct. 2016. By Checking the Dimensions, We Can See Only 47 Records Were Found. We Could Try the Samething for a given Day, Month or Year. Let's Try Searhing for Cumulative Totals of Observations of Ephemeroptera and See If We Can Detect Seasonality. "Accessing INaturalist Data."  https://ropensci.org/blog/2014/03/26/rinat/
-
-\bibitem{barvegit}
-GitHub. Web. 09 Oct. 2016. Vijaybarve. "Vijaybarve/bdvis." https://github.com/vijaybarve/bdvis
-
-\bibitem{gbif}
-SAFRING: Historical Bird Ringing Records (2005-2009). Web. 09 Oct. 2016. Gbif. "SAFRING: Historical Bird Ringing Rec..." http://www.gbif.org/dataset/b4ae1720-1431-49ee-bfeb-8146fc42b1a3
-
-
-\end{thebibliography}

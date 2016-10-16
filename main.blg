@@ -1,15 +1,15 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
 [1] Config.pm:327> INFO - Logfile is 'main.blg'
-[70] biber-darwin:276> INFO - === Fri Oct 14, 2016, 15:02:07
-[70] Biber.pm:333> INFO - Reading 'main.bcf'
-[210] Biber.pm:645> INFO - Found 8 citekeys in bib section 0
-[243] Biber.pm:2977> INFO - Processing section 0
-[270] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[280] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[292] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography.bib'
-[294] Utils.pm:146> WARN - Entry title does not parse correctly
-[295] Utils.pm:146> WARN - Entry author does not parse correctly
-[295] Utils.pm:146> WARN - Duplicate entry key: 'author' in file 'bibliography.bib', skipping ...
-[347] Utils.pm:162> ERROR - BibTeX subsystem: /var/folders/sn/_r9jckz12pxdbf10w5b86ll40000gn/T/QBKkzfm_8F/bibliography.bib_82217.utf8, line 69, syntax error: found "=", expected ","
-[347] Biber.pm:106> INFO - WARNINGS: 3
-[348] Biber.pm:110> INFO - ERRORS: 1
+[61] biber-darwin:276> INFO - === Sun Oct 16, 2016, 13:57:52
+[61] Biber.pm:333> INFO - Reading 'main.bcf'
+[207] Biber.pm:645> INFO - Found 11 citekeys in bib section 0
+[236] Biber.pm:2977> INFO - Processing section 0
+[259] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[273] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[286] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography.bib'
+[487] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[487] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[487] Biber.pm:2854> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[488] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[520] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[522] bbl.pm:596> INFO - Output to main.bbl

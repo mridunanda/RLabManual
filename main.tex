@@ -71,16 +71,16 @@
 
 % Font Settings
 \usepackage{avant} % Use the Avantgarde font for headings
-%\usepackage{times} % Use the Times font for headings
-%\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
 \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 
+\usepackage{csquotes}
+
 % Bibliography
-\usepackage[style=numeric,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
+\usepackage[style=numeric,sorting=nyt,sortcites=true,autopunct=true,autolang=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
 \addbibresource{bibliography.bib} % BibTeX bibliography file
 \defbibheading{bibempty}{}
 
@@ -102,7 +102,7 @@
 \textbf{Case Studies using the R Programming Language}\\
 {\LARGE }\par % Book title
 \vspace*{1cm}
-{\Large Katherine~Bennett, Miguel~de~los~Reyes, Raymond~Gao, Sophia~Hurr, Hannah~Gahagan, Nikhil~Miland, Mridu~Nanda, Christa~Parrish, Ishaan~Rao, Grayson~York }\par % Author name
+{\Large Katherine~Bennett, Miguel~de~los~Reyes, Raymond~Gao, Sophia~Hurr, Hannah~Gahagan, Nikhil~Miland, Mridu~Nanda, Christa~Parrish, Ishaan~Rao, Grayson~York, Margaux~Winter}\par % Author name
 \endgroup
 
 %----------------------------------------------------------------------------------------
@@ -113,13 +113,11 @@
 ~\vfill
 \thispagestyle{empty}
 
-%\noindent Copyright \copyright\ 2014 Andrea Hidalgo\\ % Copyright notice
+\noindent \textsc{Research in Computational Science}\medskip
 
-\noindent \textsc{Research in Computational Science}\\
+\noindent \textsc{North Carolina School of Science and Mathematics, Durham, NC}\medskip % URL
 
-\noindent \textsc{North Carolina School of Science and Mathematics, Durham, NC}\\ % URL
-
-\noindent This case studies manual was prepared under the direction of Mr. Robert Gotwals, faculty mentor, The North Carolina School of Science and Mathematics, Durham NC.  \\ % License information
+\noindent This case studies manual was prepared under the direction of Mr. Robert Gotwals, faculty mentor, The North Carolina School of Science and Mathematics, Durham NC.\medskip   % License information
 
 \noindent \textit{First release, November 2016} % Printing/edition date
 

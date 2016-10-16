@@ -89,10 +89,11 @@ For each level within the main factor, create labels.
 These labels will designate unordered factors.
 To make this data easier to read, unordered factors should be ordered.
 Choose ways to order the data that is relative to the averages in the data.
-For example, some levels were Low density(below 1) and some were High density,(above 1.5) so we ordered the data starting at 0, then continuing with 1, 1.5, 2. Choose labels that reflect the data, noting that the first label will relate to the lower numbers.
+For example, some levels were Low density(below 1) and some were High density,(above 1.5) so we ordered the data starting at 0, then continuing with 1, 1.5, 2.
+Choose labels that reflect the data, noting that the first label will relate to the lower numbers.
 Next, classify this newly ordered factor, and now label the data in lay terms. 
 \begin{lstlisting}
-elisa$Optical.type<-ordered(cut(elisa$Optical, c(0,1,1.5,2), labels = c("Low","M
+elisa$Optical.type<-ordered(cut(elisa$Optical, c(0,1,1.5,2), labels = c("Low","Medium","High")))
 class(elisa$Optical.type)
 elisa$Optical.type
 \end{lstlisting}

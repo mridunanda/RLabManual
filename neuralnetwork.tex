@@ -8,7 +8,7 @@ For example, it is extremely challenging to develop a system that is purely prog
 Yet, computers at the United States Postal Service are able to decipher human words and reroute letters and packages without the need for humans.
 These computers contain a neural network that has been trained to recognize handwriting and predict characters as they appear on mail. \cite{nielsen} 
 
-\begin{figure}[h]
+\begin{figure}[htbp!]
    \centering
    \includegraphics[scale=0.75]{pictures/NeuralNetworks/neuron.jpg} 
    \caption{The Parts of an Anatomical Neuron}
@@ -25,7 +25,7 @@ The inputs are binary values ($0$ or $1$), and affect the perceptron differently
 The amount of excitation or inhibition is captured by weights, or values that the inputs are multiplied by.
 Finally, the aggregate sum of these inputs and their weights is used to calculate if the perceptron in question will fire an output to the next layer of perceptrons. 
 
-\begin{figure}[h]
+\begin{figure}[htbp!]
     \centering
     \includegraphics[scale=1.0]{pictures/NeuralNetworks/sigmoidNeuron.png}
         \caption{A neuron in a neural network, with binary inputs $x_1$, $x_2$, and $x_3$.}
@@ -49,7 +49,7 @@ Rather, a network of sigmoid neurons is created to assess input values and gener
 Neural networks are most often arranged in layers.
 The first layer is known as the input layer, whilst the last layer is known as the output layer.
 All the neural layers in the middle are known as hidden layers. 
-\begin{figure}[h]
+\begin{figure}[htbp!]
     \centering
     \includegraphics[scale=0.75]{pictures/NeuralNetworks/neuralNetwork.png}
         \caption{A neural network with three layers: an input layer, a hidden layer, and an output layer.}
@@ -86,9 +86,9 @@ That is, this function has to return a value that quanitifies the difference bet
 During training, every predicted value is compared to the actual value of the data through subtraction and squared.
 Thus, for a prediction $y$ and actual value $\hat y$.
 
-\begin{equation*}
+\[
 C(y,\hat y)=(\hat y - y)^2
-\end{equation*}
+\]
 
 The cost function is computed for every data point used to train the neural network.
 The overall error of the neural network is simply the average of all the cost function values for every data point that was used to train the network.
@@ -109,7 +109,7 @@ The following code can be used to install the package from the R command line.
 This example illustrates the installation of a windows system binary file.
 However, all other installations will also be the same, with \texttt{FILE\_PATH} leading to the package downloads.
 Alternatively, a script file can be generated to install the neuralnet package. 
-\begin{figure}[h]
+\begin{figure}[htbp!]
 \caption{Code for Windows}
 \begin{lstlisting}
 install.packages("FILE_PATH.zip", repos=NULL)
@@ -118,7 +118,7 @@ library(neuralnet)
 \end{lstlisting}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[htbp!]
 \caption{Code for Mac / OSX}
 \begin{lstlisting}
 install.packages("FILE_PATH.tgz")
@@ -177,7 +177,8 @@ data <- Boston
 hiddenLayers = c(5, 3)
 \end{lstlisting}
 
-Unfortunately, the neuralnet package cannot handle NULL values in the data. Therefore, we must remove such extraneous data from the dataset.
+Unfortunately, the neuralnet package cannot handle NULL values in the data.
+Therefore, we must remove such extraneous data from the dataset.
 
 \begin{lstlisting}
 # Unlike most R libraries, neuralnet is unable to parse NA values
@@ -186,7 +187,8 @@ Unfortunately, the neuralnet package cannot handle NULL values in the data. Ther
 apply(data, 2, function(x) sum(is.na(x)))
 \end{lstlisting}
 
-We will use 75\% of the data to train the network and 25\% to test the efficacy of the neural network. We split the dataset using the following code.
+We will use 75\% of the data to train the network and 25\% to test the efficacy of the neural network.
+We split the dataset using the following code.
 
 \begin{lstlisting}
 # Generate a list of indices that are randomly sampled
@@ -203,7 +205,8 @@ test <- data[-index,]
 
 \subsection{Linear Model for Comparison}
 
-First, we run the data through a simple linear model to see how well a linearly scaled system can predict the value of interest in the data set. Our data frame is constructed so that the last column, named \verb|data$medv|, is what is predicted. Every other column is the value of a pixel in the image.
+First, we run the data through a simple linear model to see how well a linearly scaled system can predict the value of interest in the data set.
+Our data frame is constructed so that the last column, named \verb|data$medv|, is what is predicted. Every other column is the value of a pixel in the image.
 
 \begin{lstlisting}
 # Create a regression line using prog as the prognostic variable
@@ -218,7 +221,12 @@ lm.MSE <- sum((lm.pr - test$medv)^2) / nrow(test)
 
 \subsection{Neural Network Setup and Execution}
 
-We will compare the linear model to the neural network graphically after generating results from the neural network. We now work to set up the data for the neural network. Neural networks generally do not work well with non-uniform distributions of data. Therefore, we will scale every column to distribute the values correctly. When we scale the data set, we will lose the true values. Therefore, it is important to ''unscale" the data once we generate output from the network.
+We will compare the linear model to the neural network graphically after generating results from the neural network.
+We now work to set up the data for the neural network.
+Neural networks generally do not work well with non-uniform distributions of data.
+Therefore, we will scale every column to distribute the values correctly.
+When we scale the data set, we will lose the true values.
+Therefore, it is important to ''unscale" the data once we generate output from the network.
 
 \begin{lstlisting}
 # Create a list of maximums from each data column
@@ -235,7 +243,9 @@ train_ <- scaled[index,]
 test_ <- scaled[-index,]
 \end{lstlisting}
 
-At this point, we can generate a neural network and execute it. We begin by constructing a rule for the neural network to follow. This rule simply describes the output variables and the input variables that are thought to influence the output. 
+At this point, we can generate a neural network and execute it.
+We begin by constructing a rule for the neural network to follow.
+This rule simply describes the output variables and the input variables that are thought to influence the output. 
 
 \begin{lstlisting}
 # Every column affects the prognostic variable
@@ -255,7 +265,8 @@ nn <- neuralnet(f, data=train_, hidden=hiddenLayers, linear.output=T)
 plot(nn)
 \end{lstlisting}
 
-Just like the linear model that we use to compare, we will calculate the Mean-Squared Error of the neural network. For this, we extract the predictions of the neural network and ''unscale" them. 
+Just like the linear model that we use to compare, we will calculate the Mean-Squared Error of the neural network.
+For this, we extract the predictions of the neural network and ''unscale" them. 
 
 \begin{lstlisting}
 # Compute predictions from our neural network
@@ -403,5 +414,3 @@ legend("bottomright", legend=c("NN", "LM"), pch=18, col=c("red", "blue"))
 
 Download the file located at \url{https://github.com/nosyarg/textbookdata/blob/master/berkeleyusdata.txt}.
 This data comes from the Berkeley Earth Project.
-Once you have downloaded the data, run the following code:
-as relevant, and make December the prognosis variable

@@ -5,7 +5,7 @@
 \nomenclature{Glossary term:}{Definition}
 
 The most common type of linear models are analysis of variance (ANOVA) and linear regression models. 
-R is built to handle linear models, and as such it is easy to work with ANOVA. 
+R is built to handle linear models, so it is easy to work with ANOVA. 
 ANOVA is a statistical method used to compare two or more means. 
 These values can be used to determine whether a significant correlation exists between variables. 
 We will be using one-way ANOVA, which compares the means between the groups of interest, and determines whether those means are significantly different from each other. 
@@ -15,8 +15,7 @@ ANOVA can only be used with certain types of data configurations.
 To perform ANOVA, data must have a continuous response variable and at least one categorical factor with two or more levels, in lay terms, ANOVA can only be used with numeric values that can be ordered sequentially, with a certain number of possible responses. 
 (i.e. data comparing object's weights, and each new weight is a level) 
 ANOVA is easier to use if data is from from approximately normally distributed populations with equal variances between factor levels, however, as R is built to work with statistics, ANOVA procedures will generally work without incident unless one or more of the distributions or variances are highly skewed.
-A basic understanding of statistics how to use R is recommended before performing ANOVA. The ANOVA user will create and order factors, make box plots, and combine and stack data. 
-\cite{CRANR}
+A basic understanding of statistics how to use R is recommended before performing ANOVA. The ANOVA user will create and order factors, make box plots, and combine and stack data.\cite{CRANR}
 The following functions will be useful in using ANOVA.
 \begin{enumerate}
         \item \texttt{aov}
@@ -31,7 +30,7 @@ The following functions will be useful in using ANOVA.
 \section{Objectives}
 
 In this assignment, we will use ANOVA to analyze data from ELISA HIV Optical Density Readings.
-ANOVA identifies the causes of variation, and sorts out the corresponding components of variation with associated degrees of freedom. 
+ANOVA identifies the causes of variation and sorts out the corresponding components of variation with associated degrees of freedom. 
 In this case, we are interested in seeing how HIV Optical Density Readings are related to their lot. 
 The type of ANOVA we are using is one-way between groups, as we are comparing one grouping (the optical density readings) to define the groups (lots). 
 \setlist{before=\singlespacing,after=\singlespacing}
@@ -68,7 +67,10 @@ Constructing a box plot before analyzing the data may prove helpful in deciding 
 
 \section{Building the Model}
 
-Looking at the data set of interest for ANOVA, note that that data may be in numeric form. Use the function is.numeric to review the data. If this function prints TRUE, use the function as.factor to change data from numeric to factor. In order to make it easier to manipulate data later on, it is recommended that the factored data is renamed. 
+Looking at the data set of interest for ANOVA, note that that data may be in numeric form.
+Use the function \texttt{is.numeric} to review the data.
+If this function prints \texttt{TRUE}, use the function \texttt{as.factor} to change data from numeric to factor.
+In order to make it easier to manipulate data later on, it is recommended that the factored data be renamed. 
 \begin{lstlisting}
 lot = as.factor(elisa$Lot)
 summary(lot)
@@ -89,7 +91,7 @@ For each level within the main factor, create labels.
 These labels will designate unordered factors.
 To make this data easier to read, unordered factors should be ordered.
 Choose ways to order the data that is relative to the averages in the data.
-For example, some levels were Low density(below 1) and some were High density,(above 1.5) so we ordered the data starting at 0, then continuing with 1, 1.5, 2.
+For example, some levels were low density(below 1) and some were high density,(above 1.5) so we ordered the data starting at 0, then continuing with 1, 1.5, 2.
 Choose labels that reflect the data, noting that the first label will relate to the lower numbers.
 Next, classify this newly ordered factor, and now label the data in lay terms. 
 \begin{lstlisting}
@@ -97,8 +99,13 @@ elisa$Optical.type<-ordered(cut(elisa$Optical, c(0,1,1.5,2), labels = c("Low","M
 class(elisa$Optical.type)
 elisa$Optical.type
 \end{lstlisting}
-Note, that if you wish to remove one group of subjects (i.e. Lot 1) R will keep this removed group as a level, possibly skewing your data. Use the function drop levels to remove a selected group as a level. Rename this reconfigured data as to not overwrite your previous data. 
-In order to use ANOVA, the data must be in a specific format. To properly configure data, combine the data from the two factors intended to be compared with the function data.frame. Next, stack these combined groups. Finally use this stacked data and the function aov to perform ANOVA. Make a summary of these results.
+Note, that if you wish to remove one group of subjects (i.e. Lot 1) R will keep this removed group as a level, possibly skewing your data.
+Use the function drop levels to remove a selected group as a level.
+Rename this reconfigured data as to not overwrite your previous data. 
+In order to use ANOVA, the data must be in a specific format. To properly configure data, combine the data from the two factors intended to be compared with the function \texttt{data.frame}.
+Next, stack these combined groups.
+Finally use this stacked data and the function \texttt{aov} to perform ANOVA.
+Make a summary of these results.
 \begin{lstlisting}
 finalelisa <- droplevels(newelisa)
 summary(finalelisa$Lot)
@@ -108,7 +115,12 @@ Stacked_Groups <- stack(Combined_Groups)
 Stacked_Groups
 Anova_Results <- aov(values ~ ind, data = Stacked_Groups)
 \end{lstlisting}
-This method can me used for a simple one-way ANOVA. However some data can compare multiple sets of data against each other. To do this, we can use a post-hoc test. Post-hoc tests compare outcome measurements between multiple groups. With post-hoc analysis the reader can examine differences between pairs of groups after global analysis. Use the function TukeyHSD to perform a pairwise post-hoc analysis on the ANOVA results.
+This method can be used for a simple one-way ANOVA.
+However some data can compare multiple sets of data against each other.
+To do this, we can use a post-hoc test.
+Post-hoc tests compare outcome measurements between multiple groups.
+With post-hoc analysis the reader can examine differences between pairs of groups after global analysis.
+Use the function \texttt{TukeyHSD} to perform a pairwise post-hoc analysis on the ANOVA results.
 \begin{lstlisting}
 summary(Anova_Results)
 TukeyHSD(Anova_Results)
@@ -120,7 +132,7 @@ In addition, we recommend the use of \texttt{summary()} and the console to view 
  
 \section{Deliverable}
 
-Using ANOVA, students should be able to take data with sequentially ordered number data, make a box plot, factor the data as unordered and ordered factors, configure the data such that the function aov can be performed, and perform TukeyHSD.
+Using ANOVA, students should be able to take data with sequentially ordered number data, make a box plot, factor the data as unordered and ordered factors, configure the data such that the function aov can be performed, and perform \texttt{TukeyHSD}.
 Using the box plot, students should be able to identify residuals, coefficients of the linear regression, and residual standard error. 
 Using aov, students should be able to identify degrees of freedom, the sum of the squares, the mean of the squares, and the F ratio (the ratio of two mean square values) for their data. 
 

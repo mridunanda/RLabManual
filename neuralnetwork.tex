@@ -226,7 +226,7 @@ We now work to set up the data for the neural network.
 Neural networks generally do not work well with non-uniform distributions of data.
 Therefore, we will scale every column to distribute the values correctly.
 When we scale the data set, we will lose the true values.
-Therefore, it is important to ''unscale" the data once we generate output from the network.
+Therefore, it is important to ''unscale'' the data once we generate output from the network.
 
 \begin{lstlisting}
 # Create a list of maximums from each data column
@@ -266,7 +266,7 @@ plot(nn)
 \end{lstlisting}
 
 Just like the linear model that we use to compare, we will calculate the Mean-Squared Error of the neural network.
-For this, we extract the predictions of the neural network and ''unscale" them. 
+For this, we extract the predictions of the neural network and ''unscale'' them. 
 
 \begin{lstlisting}
 # Compute predictions from our neural network

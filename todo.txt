@@ -1,0 +1,3 @@
+move bibliography of plotluck to main file
+improve code formatting in shiny
+add new cover image

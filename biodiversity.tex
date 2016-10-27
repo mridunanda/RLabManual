@@ -1,7 +1,8 @@
 \chapter{Biodiversity}
 \section{Introduction to Biodiversity}
 
-The 21st century marks the era of big data. This increase of data has effected all spheres of science, especially the study of biodiversity.
+The 21st century marks the era of big data.
+This increase of data has effected all spheres of science, especially the study of biodiversity''
 Biodiversity data covers an increasingly wide range of areas including bio-geography, ecology, invasive species biology, and climate change.
 The information collected in biodiversity informatics projects has been used for studies relating to food security, control of disease vectors, and marine productivity \cite{Barve}.  
 \begin{figure}[htbp!] 
@@ -13,7 +14,7 @@ The information collected in biodiversity informatics projects has been used for
 
 Primary biodiversity data is one of the most important biodiversity statistics; it documents a species' occurrences in time and space.
 Associated metadata, or data that describes statistics given in another set, may include information about who identified and recorded the species, who verified the identification, climatic parameters, micro-habitat information, number of individuals, sex, size, etc \cite{Barve}.
-When these two types of data are formatted in universally accepted formats, published openly and integrated with other such data streams, they are known “Digitally Accessible Knowledge” or DAK.
+When these two types of data are formatted in universally accepted formats, published openly and integrated with other such data streams, they are known ``Digitally Accessible Knowledge'' or DAK.
 
 There are many sources of biodiversity data including: directed surveys, broad-scale surveys, and biological collections. 
 
@@ -37,7 +38,7 @@ Nonetheless, these studies provide the bulk of non-specimen observational data a
 
 Biological collections are data sets of specimens.
 This type of data is primarily assembled to document the phenotypes and genotypes of the biotas worldwide \cite{Barve}.
-Biological collections are typically considered as "high-quality, low-volume" sources of data on biological diversity \cite{Barve}.
+Biological collections are typically considered as ``high-quality, low-volume'' sources of data on biological diversity \cite{Barve}.
 
 Given all the different ways to collect data, each with their own pros and cons, it is important for researchers utilizing biodiversity data to determine the completeness and accuracy of their data sets.
 Data visualization is one technique to observe patterns within very large data sets that are extremely difficult to analyze manually.
@@ -66,14 +67,11 @@ After installing these packages, load them into your library.
 \begin{lstlisting}
 #make sure to include quotation marks when installing packages
 install.packages("maps")
-\end{lstlisting}
-
-\begin{lstlisting}
 #leave off quotation marks when loading packages into library
 library(maps)
 \end{lstlisting}
 
-Download the "Historical bird ringing records" from: \url{http://www.gbif.org/dataset/b4ae1720-1431-49ee-bfeb-8146fc42b1a3}.
+Download the ``Historical bird ringing records'' from: \url{http://www.gbif.org/dataset/b4ae1720-1431-49ee-bfeb-8146fc42b1a3}.
 After data is configured to fit the bdvis package, set the working directory to the location of the data on your laptop.
 Next, read the data from the file, making sure to set \texttt{stringsAsFactors} as false.
 
@@ -87,7 +85,7 @@ birds <- read.delim('occurrence.txt', quote='', stringsAsFactors=FALSE)
 
 You may begin using functions that create visual models of the data.
 The first model used in this example is a graph of completeness vs. number of species.
-To create this graph use the function bdcomplete, which divides the extent of the dataset in cells, via the getcellid function.
+To create this graph use the function bdcomplete, which divides the extent of the dataset in cells, via the \texttt{getcellid} function.
 Next, the function calculates the Chao2 estimator of species richness, which uses occurrence data from many samples to estimate the entirety of the species diversity.
 This function requires a minimum number of records that must be present on each cell to properly compute the index.
 If there are too few records in the cells, the function is unable to finish, an error will result.
@@ -138,9 +136,9 @@ chronohorogram(birds)
    \label{fig:chronohorogram}
 \end{figure} 
 
-Use the function distrigraph to build plots displaying distribution of biodiversity records among user-defined features.
-The next four distrographs all use different p-types (feature to represent) allowing each graphic to depict different aspects of the data.
-The following code is used to create all four distirgraph respectively as shown in figures \ref{fig:distrigraph1} and \ref{fig:distrigraph2}.
+Use the function \texttt{distrigraph} to build plots displaying distribution of biodiversity records among user-defined features.
+The next four distrigraphs all use different p-types (feature to represent) allowing each graphic to depict different aspects of the data.
+The following code is used to create all four distrigraphs respectively as shown in figures \ref{fig:distrigraph1} and \ref{fig:distrigraph2}.
 
 \begin{lstlisting}
 distrigraph(birds,ptype="cell",col="tomato")

@@ -56,7 +56,7 @@ The post-hoc test also allows the user to find the differences in means, and spe
 Figure \ref{fig:BoxPlotOpticalDensity} shows a box plot of the data before running ANOVA or TukeyHSD.
 Constructing a box plot before analyzing the data may prove helpful in deciding what kind of analysis would be preferable.
 
-\begin{figure}%  the "H" means put it where you put this code....but that doesn't always work!
+\begin{figure}[htbp!]%  the "H" means put it where you put this code....but that doesn't always work!
         \centering
                 \includegraphics[width = .5\textwidth]{pictures/ANOVA/BoxPlotOpticalDensity.jpg} 
         \caption{Boxplot}
@@ -91,7 +91,7 @@ For each level within the main factor, create labels.
 These labels will designate unordered factors.
 To make this data easier to read, unordered factors should be ordered.
 Choose ways to order the data that is relative to the averages in the data.
-For example, some levels were low density(below 1) and some were high density,(above 1.5) so we ordered the data starting at 0, then continuing with 1, 1.5, 2.
+For example, some levels were low density (below 1) and some were high density,(above 1.5) so we ordered the data starting at 0, then continuing with 1, 1.5, 2.
 Choose labels that reflect the data, noting that the first label will relate to the lower numbers.
 Next, classify this newly ordered factor, and now label the data in lay terms. 
 \begin{lstlisting}
@@ -102,7 +102,8 @@ elisa$Optical.type
 Note, that if you wish to remove one group of subjects (i.e. Lot 1) R will keep this removed group as a level, possibly skewing your data.
 Use the function drop levels to remove a selected group as a level.
 Rename this reconfigured data as to not overwrite your previous data. 
-In order to use ANOVA, the data must be in a specific format. To properly configure data, combine the data from the two factors intended to be compared with the function \texttt{data.frame}.
+In order to use ANOVA, the data must be in a specific format.
+To properly configure data, combine the data from the two factors intended to be compared with the function \texttt{data.frame}.
 Next, stack these combined groups.
 Finally use this stacked data and the function \texttt{aov} to perform ANOVA.
 Make a summary of these results.
@@ -158,11 +159,9 @@ levels(as.factor(elisa$Lot))
 lot=as.factor(elisa$Lot)
 # etc.
 
-
 # Create a boxplot showing optical density by lot
 # Make sure to label your axes!
 boxplot(..., ...)
-
 
 # Perform a linear regression of optical density by lot
 summary(lm(..., data=elisa))
@@ -180,7 +179,6 @@ class(elisa$Optical.type)
 # Create stacked results to run aov()
 
 # Run TukeyHSD on the ANOVA results
-
 \end{lstlisting}
 
 \section{Example Student Code}

@@ -19,6 +19,18 @@
 
 \refsection{0}
   \sortlist{nyt}{nyt}
+    \entry{andersson}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bd869d620c9be561b17ecf10ced82138}{Andersson}{A\bibinitperiod}{Eve}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bd869d620c9be561b17ecf10ced82138}
+      \strng{fullhash}{bd869d620c9be561b17ecf10ced82138}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Calculation of Pi Using the Monte Carlo Method}
+    \endentry
     \entry{Barve}{online}{}
       \name{author}{1}{}{%
         {{hash=1e303ee7e322d05ef0d0b4d387799b5b}{Barve}{B\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
@@ -57,6 +69,19 @@
       \field{year}{2016}
       \verb{url}
       \verb https://www.math.ust.hk/~machas/differential-equations.pdf
+      \endverb
+    \endentry
+    \entry{leaflet}{online}{}
+      \list{publisher}{1}{%
+        {RStudio}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labeltitlesource}{title}
+      \field{title}{Leaflet for R}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://rstudio.github.io/leaflet/
       \endverb
     \endentry
     \entry{jaspar}{book}{}
@@ -172,6 +197,24 @@
       \verb http://shiny.rstudio.com/gallery/movie-explorer.html
       \endverb
     \endentry
+    \entry{smoller}{online}{}
+      \name{author}{1}{}{%
+        {{hash=914e5d90b5a7222a9deb688344ea40c8}{Smoller}{S\bibinitperiod}{Laura}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arkansas, Little Rock}%
+      }
+      \strng{namehash}{914e5d90b5a7222a9deb688344ea40c8}
+      \strng{fullhash}{914e5d90b5a7222a9deb688344ea40c8}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{02}
+      \field{title}{The Amazing History of Pi}
+      \field{year}{2001}
+    \endentry
     \entry{stan}{online}{}
       \name{author}{1}{}{%
         {{hash=a3dc6a6617b2e9a04207a448c0abb871}{Stan}{S\bibinitperiod}{Guy-Bart}{G\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
@@ -205,6 +248,21 @@
       \verb{url}
       \verb http://shiny.rstudio.com/tutorial/
       \endverb
+    \endentry
+    \entry{yee}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c5aafaaa2fb14bcd5553d453586de620}{Yee}{Y\bibinitperiod}{Alexander\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c5aafaaa2fb14bcd5553d453586de620}
+      \strng{fullhash}{c5aafaaa2fb14bcd5553d453586de620}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{09}
+      \field{title}{Y-cruncher - A Multi-Threaded Pi Program}
+      \field{year}{2016}
     \endentry
   \endsortlist
 \endrefsection

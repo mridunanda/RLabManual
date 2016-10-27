@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 OCT 2016 05:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 OCT 2016 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1591,51 +1591,31 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <35> not available
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <35> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 102.
 
-<pictures/chapterheadings/header_07.jpg, id=392, 2258.4375pt x 1279.78125pt>
-File: pictures/chapterheadings/header_07.jpg Graphic file (type jpg)
+<pictures/technology-backdrop.jpg, id=392, 2559.5625pt x 3312.375pt>
+File: pictures/technology-backdrop.jpg Graphic file (type jpg)
 
-<use pictures/chapterheadings/header_07.jpg>
-Package pdftex.def Info: pictures/chapterheadings/header_07.jpg used on input l
-ine 112.
-(pdftex.def)             Requested size: 2823.04001pt x 1599.72267pt.
+<use pictures/technology-backdrop.jpg>
+Package pdftex.def Info: pictures/technology-backdrop.jpg used on input line 11
+2.
+(pdftex.def)             Requested size: 614.295pt x 794.98627pt.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictu
-res/chapterheadings/header_07.jpg>] (/usr/local/texlive/2015/texmf-dist/tex/lat
-ex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 121.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 121.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
+res/technology-backdrop.jpg>]
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <10.95> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 125.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 126.
  [2]
-<Pictures/ChapterHeadings/header_01.jpg, id=406, 2258.4375pt x 1279.78125pt>
+<Pictures/ChapterHeadings/header_01.jpg, id=405, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_01.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_01.jpg>
 Package pdftex.def Info: Pictures/ChapterHeadings/header_01.jpg used on input l
-ine 129.
+ine 130.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 129.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 129.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 130.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <12> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 5.
@@ -1656,12 +1636,12 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 \openout6 = `main.toc'.
 
  [6]
-<Pictures/ChapterHeadings/header_02.jpg, id=618, 2258.4375pt x 1279.78125pt>
+<Pictures/ChapterHeadings/header_02.jpg, id=617, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_02.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_02.jpg>
 Package pdftex.def Info: Pictures/ChapterHeadings/header_02.jpg used on input l
-ine 137.
+ine 138.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
  [7
 
@@ -1674,7 +1654,7 @@ ine 137.
 ]
 Chapter 1.
 \c@ttl@toc@default=\count359
-<Pictures/ChapterHeadings/header_03.jpg, id=629, 2258.4375pt x 1279.78125pt>
+<Pictures/ChapterHeadings/header_03.jpg, id=628, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_03.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_03.jpg>
@@ -1691,7 +1671,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [9 <./Pictures/ChapterHeadings/header_03.jpg>]
-<pictures/ANOVA/BoxPlotOpticalDensity.jpg, id=640, 427.5975pt x 516.93124pt>
+<pictures/ANOVA/BoxPlotOpticalDensity.jpg, id=639, 427.5975pt x 516.93124pt>
 File: pictures/ANOVA/BoxPlotOpticalDensity.jpg Graphic file (type jpg)
 
 <use pictures/ANOVA/BoxPlotOpticalDensity.jpg>
@@ -1711,7 +1691,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 2.
-<Pictures/ChapterHeadings/header_04.jpg, id=794, 2258.4375pt x 1279.78125pt>
+<Pictures/ChapterHeadings/header_04.jpg, id=793, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_04.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_04.jpg>
@@ -1719,15 +1699,35 @@ Package pdftex.def Info: Pictures/ChapterHeadings/header_04.jpg used on input l
 ine 1.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
 
-<pictures/NeuralNetworks/neuron.jpg, id=796, 313.17pt x 189.8292pt>
+<pictures/NeuralNetworks/neuron.jpg, id=795, 313.17pt x 189.8292pt>
 File: pictures/NeuralNetworks/neuron.jpg Graphic file (type jpg)
 
 <use pictures/NeuralNetworks/neuron.jpg>
 Package pdftex.def Info: pictures/NeuralNetworks/neuron.jpg used on input line 
 13.
 (pdftex.def)             Requested size: 234.8769pt x 142.37154pt.
- [17 <./Pictures/ChapterHeadings/header_04.jpg>]
-<pictures/NeuralNetworks/sigmoidNeuron.png, id=803, 281.05pt x 138.5175pt>
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [17 <./Pictures/ChapterHeadings/header_04.jpg>]
+<pictures/NeuralNetworks/sigmoidNeuron.png, id=802, 281.05pt x 138.5175pt>
 File: pictures/NeuralNetworks/sigmoidNeuron.png Graphic file (type png)
 
 <use pictures/NeuralNetworks/sigmoidNeuron.png>
@@ -1735,7 +1735,7 @@ Package pdftex.def Info: pictures/NeuralNetworks/sigmoidNeuron.png used on inpu
 t line 30.
 (pdftex.def)             Requested size: 281.0493pt x 138.51715pt.
 
-<pictures/NeuralNetworks/neuralNetwork.png, id=805, 397.485pt x 211.79124pt>
+<pictures/NeuralNetworks/neuralNetwork.png, id=804, 397.485pt x 211.79124pt>
 File: pictures/NeuralNetworks/neuralNetwork.png Graphic file (type png)
 
 <use pictures/NeuralNetworks/neuralNetwork.png>
@@ -1753,7 +1753,7 @@ n/10.95 https : / / cran . r-[]project . org / web / packages /
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26])
-Overfull \hbox (10.45341pt too wide) in paragraph at lines 415--148
+Overfull \hbox (10.45341pt too wide) in paragraph at lines 415--149
 \T1/pag/m/n/10.95 (-20) Download the file lo-cated at []$\T1/cmtt/m/n/10.95 htt
 ps : / / github . com / nosyarg / textbookdata / blob / master /
  []
@@ -1977,7 +1977,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: pictures/clustering/Kmeans.jpeg Graphic file (type jpg)
 
 <use pictures/clustering/Kmeans.jpeg>
-Package pdftex.def Info: pictures/clustering/Kmeans.jpeg used on input line 193
+Package pdftex.def Info: pictures/clustering/Kmeans.jpeg used on input line 192
 .
 (pdftex.def)             Requested size: 216.09877pt x 229.9716pt.
 
@@ -1985,7 +1985,7 @@ Package pdftex.def Info: pictures/clustering/Kmeans.jpeg used on input line 193
 File: pictures/clustering/Tree.jpeg Graphic file (type jpg)
 
 <use pictures/clustering/Tree.jpeg>
-Package pdftex.def Info: pictures/clustering/Tree.jpeg used on input line 201.
+Package pdftex.def Info: pictures/clustering/Tree.jpeg used on input line 200.
 (pdftex.def)             Requested size: 216.09877pt x 229.9716pt.
  [61 <./pictures/clustering/Kmeans.jpeg> <./pictures/clustering/Tree.jpeg>])
 No file main.nls.
@@ -2035,8 +2035,8 @@ ine 1.
 File: pictures/biodiversity/spiders.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/spiders.jpg>
-Package pdftex.def Info: pictures/biodiversity/spiders.jpg used on input line 9
-.
+Package pdftex.def Info: pictures/biodiversity/spiders.jpg used on input line 1
+0.
 (pdftex.def)             Requested size: 216.09877pt x 144.06815pt.
  [67
 
@@ -2044,9 +2044,9 @@ Package pdftex.def Info: pictures/biodiversity/spiders.jpg used on input line 9
 
  <./Pictures/ChapterHeadings/header_09.jpg> <./pictures/biodiversity/spiders.jp
 g>] [68]
-Overfull \hbox (4.09773pt too wide) in paragraph at lines 76--79
-[]\T1/pag/m/n/10.95 (-20) Download the "His-tor-i-cal bird ring-ing records" fr
-om: []$\T1/cmtt/m/n/10.95 http : / / www . gbif . org / dataset /
+Overfull \hbox (8.04666pt too wide) in paragraph at lines 74--77
+[]\T1/pag/m/n/10.95 (-20) Download the ``His-tor-i-cal bird ring-ing records'' 
+from: []$\T1/cmtt/m/n/10.95 http : / / www . gbif . org / dataset /
  []
 
 [69] <pictures/biodiversity/complete.jpg, id=1958, 550.055pt x 509.905pt>
@@ -2054,67 +2054,68 @@ File: pictures/biodiversity/complete.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/complete.jpg>
 Package pdftex.def Info: pictures/biodiversity/complete.jpg used on input line 
-102.
+100.
 (pdftex.def)             Requested size: 216.09877pt x 200.32487pt.
 
 <pictures/biodiversity/map.jpg, id=1960, 544.0325pt x 278.03876pt>
 File: pictures/biodiversity/map.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/map.jpg>
-Package pdftex.def Info: pictures/biodiversity/map.jpg used on input line 121.
+Package pdftex.def Info: pictures/biodiversity/map.jpg used on input line 119.
 (pdftex.def)             Requested size: 216.09877pt x 110.44139pt.
-
-<pictures/biodiversity/chronohorogram.jpg, id=1962, 542.025pt x 501.875pt>
+ [70 <./pictures/biodiversity/complete.jpg> <./pictures/biodiversity/map.jpg>]
+<pictures/biodiversity/chronohorogram.jpg, id=1973, 542.025pt x 501.875pt>
 File: pictures/biodiversity/chronohorogram.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/chronohorogram.jpg>
 Package pdftex.def Info: pictures/biodiversity/chronohorogram.jpg used on input
- line 137.
+ line 135.
 (pdftex.def)             Requested size: 216.09877pt x 200.08784pt.
- [70 <./pictures/biodiversity/complete.jpg>] [71 <./pictures/biodiversity/map.j
-pg> <./pictures/biodiversity/chronohorogram.jpg>]
-<pictures/biodiversity/distrograph1.jpg, id=1985, 502.87875pt x 505.89pt>
+
+<pictures/biodiversity/distrograph1.jpg, id=1976, 502.87875pt x 505.89pt>
 File: pictures/biodiversity/distrograph1.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/distrograph1.jpg>
 Package pdftex.def Info: pictures/biodiversity/distrograph1.jpg used on input l
-ine 153.
+ine 151.
 (pdftex.def)             Requested size: 176.0102pt x 177.06415pt.
 
-<pictures/biodiversity/distrograph2.jpg, id=1986, 485.815pt x 504.88625pt>
+<pictures/biodiversity/distrograph2.jpg, id=1977, 485.815pt x 504.88625pt>
 File: pictures/biodiversity/distrograph2.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/distrograph2.jpg>
 Package pdftex.def Info: pictures/biodiversity/distrograph2.jpg used on input l
-ine 154.
+ine 152.
 (pdftex.def)             Requested size: 170.0378pt x 176.71283pt.
 
-<pictures/biodiversity/distrograph3.jpg, id=1987, 519.9425pt x 504.88625pt>
+<pictures/biodiversity/distrograph3.jpg, id=1978, 519.9425pt x 504.88625pt>
 File: pictures/biodiversity/distrograph3.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/distrograph3.jpg>
 Package pdftex.def Info: pictures/biodiversity/distrograph3.jpg used on input l
-ine 162.
+ine 160.
 (pdftex.def)             Requested size: 181.9826pt x 176.71283pt.
 
-<pictures/biodiversity/distrograph4.jpg, id=1988, 504.88625pt x 507.8975pt>
+<pictures/biodiversity/distrograph4.jpg, id=1979, 504.88625pt x 507.8975pt>
 File: pictures/biodiversity/distrograph4.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/distrograph4.jpg>
 Package pdftex.def Info: pictures/biodiversity/distrograph4.jpg used on input l
-ine 163.
+ine 161.
 (pdftex.def)             Requested size: 176.71283pt x 177.76678pt.
- [72 <./pictures/biodiversity/distrograph1.jpg> <./pictures/biodiversity/distro
-graph2.jpg> <./pictures/biodiversity/distrograph3.jpg> <./pictures/biodiversity
-/distrograph4.jpg>]
-<pictures/biodiversity/heatmap.jpg, id=2006, 589.20125pt x 498.86375pt>
+
+<pictures/biodiversity/heatmap.jpg, id=1981, 589.20125pt x 498.86375pt>
 File: pictures/biodiversity/heatmap.jpg Graphic file (type jpg)
 
 <use pictures/biodiversity/heatmap.jpg>
 Package pdftex.def Info: pictures/biodiversity/heatmap.jpg used on input line 1
-78.
+76.
 (pdftex.def)             Requested size: 216.09877pt x 182.96294pt.
- [73 <./pictures/biodiversity/heatmap.jpg>]) [74]
+ [71 <./pictures/biodiversity/chronohorogram.jpg>] [72 <./pictures/biodiversity
+/distrograph1.jpg> <./pictures/biodiversity/distrograph2.jpg> <./pictures/biodi
+versity/distrograph3.jpg> <./pictures/biodiversity/distrograph4.jpg>] [73 <./pi
+ctures/biodiversity/heatmap.jpg>])
+[74]
 \openout2 = `html.aux'.
 
  (./html.tex
@@ -2129,7 +2130,7 @@ ine 1.
 
 
 ] [76]
-<pictures/html/htmlwidgets-image-1.png, id=2114, 892.33376pt x 465.74pt>
+<pictures/html/htmlwidgets-image-1.png, id=2113, 892.33376pt x 465.74pt>
 File: pictures/html/htmlwidgets-image-1.png Graphic file (type png)
 
 <use pictures/html/htmlwidgets-image-1.png>
@@ -2137,7 +2138,7 @@ Package pdftex.def Info: pictures/html/htmlwidgets-image-1.png used on input li
 ne 92.
 (pdftex.def)             Requested size: 341.43306pt x 178.20537pt.
  [77 <./pictures/html/htmlwidgets-image-1.png>]
-<pictures/html/htmlwidgets-image-2.png, id=2132, 892.33376pt x 467.7475pt>
+<pictures/html/htmlwidgets-image-2.png, id=2131, 892.33376pt x 467.7475pt>
 File: pictures/html/htmlwidgets-image-2.png Graphic file (type png)
 
 <use pictures/html/htmlwidgets-image-2.png>
@@ -2145,7 +2146,7 @@ Package pdftex.def Info: pictures/html/htmlwidgets-image-2.png used on input li
 ne 119.
 (pdftex.def)             Requested size: 216.09877pt x 113.27518pt.
 
-<pictures/html/htmlwidgets-image-3.png, id=2133, 892.33376pt x 466.74374pt>
+<pictures/html/htmlwidgets-image-3.png, id=2132, 892.33376pt x 466.74374pt>
 File: pictures/html/htmlwidgets-image-3.png Graphic file (type png)
 
 <use pictures/html/htmlwidgets-image-3.png>
@@ -2154,7 +2155,7 @@ ne 126.
 (pdftex.def)             Requested size: 216.09877pt x 113.03209pt.
  [78 <./pictures/html/htmlwidgets-image-2.png> <./pictures/html/htmlwidgets-ima
 ge-3.png>]
-<pictures/html/htmlwidgets-image-4.png, id=2160, 888.31876pt x 464.73625pt>
+<pictures/html/htmlwidgets-image-4.png, id=2159, 888.31876pt x 464.73625pt>
 File: pictures/html/htmlwidgets-image-4.png Graphic file (type png)
 
 <use pictures/html/htmlwidgets-image-4.png>
@@ -2162,7 +2163,7 @@ Package pdftex.def Info: pictures/html/htmlwidgets-image-4.png used on input li
 ne 150.
 (pdftex.def)             Requested size: 216.09877pt x 113.04942pt.
  [79 <./pictures/html/htmlwidgets-image-4.png>]
-<pictures/html/htmlwidgets-image-5.png, id=2187, 884.30376pt x 469.755pt>
+<pictures/html/htmlwidgets-image-5.png, id=2186, 884.30376pt x 469.755pt>
 File: pictures/html/htmlwidgets-image-5.png Graphic file (type png)
 
 <use pictures/html/htmlwidgets-image-5.png>
@@ -2170,7 +2171,7 @@ Package pdftex.def Info: pictures/html/htmlwidgets-image-5.png used on input li
 ne 196.
 (pdftex.def)             Requested size: 341.43306pt x 181.3759pt.
 
-<pictures/html/htmlwidgets-image-6.png, id=2188, 1006.76125pt x 417.56pt>
+<pictures/html/htmlwidgets-image-6.png, id=2187, 1006.76125pt x 417.56pt>
 File: pictures/html/htmlwidgets-image-6.png Graphic file (type png)
 
 <use pictures/html/htmlwidgets-image-6.png>
@@ -2187,7 +2188,7 @@ ts-image-6.png>]
 
 ]
 Chapter 9.
-<Pictures/ChapterHeadings/header_10.jpg, id=2215, 2258.4375pt x 1279.78125pt>
+<Pictures/ChapterHeadings/header_10.jpg, id=2214, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_10.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_10.jpg>
@@ -2195,21 +2196,21 @@ Package pdftex.def Info: Pictures/ChapterHeadings/header_10.jpg used on input l
 ine 1.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
  [83 <./Pictures/ChapterHeadings/header_10.jpg>] <pictures/pi/blank2.PNG, id=22
-27, 686.565pt x 403.5075pt>
+26, 686.565pt x 403.5075pt>
 File: pictures/pi/blank2.PNG Graphic file (type png)
 
 <use pictures/pi/blank2.PNG>
 Package pdftex.def Info: pictures/pi/blank2.PNG used on input line 82.
 (pdftex.def)             Requested size: 216.09877pt x 127.00085pt.
  [84]
-<pictures/pi/input.PNG, id=2253, 673.01437pt x 423.83344pt>
+<pictures/pi/input.PNG, id=2252, 673.01437pt x 423.83344pt>
 File: pictures/pi/input.PNG Graphic file (type png)
 
 <use pictures/pi/input.PNG>
 Package pdftex.def Info: pictures/pi/input.PNG used on input line 123.
 (pdftex.def)             Requested size: 216.09877pt x 136.08862pt.
  [85 <./pictures/pi/blank2.PNG>] [86 <./pictures/pi/input.PNG>] <pictures/pi/es
-timate.PNG, id=2300, 677.53125pt x 422.32782pt>
+timate.PNG, id=2299, 677.53125pt x 422.32782pt>
 File: pictures/pi/estimate.PNG Graphic file (type png)
 
 <use pictures/pi/estimate.PNG>
@@ -2221,7 +2222,7 @@ Package pdftex.def Info: pictures/pi/estimate.PNG used on input line 210.
 
  (./plotluck.tex
 Chapter 10.
-<Pictures/ChapterHeadings/header_11.jpg, id=2430, 2258.4375pt x 1279.78125pt>
+<Pictures/ChapterHeadings/header_11.jpg, id=2429, 2258.4375pt x 1279.78125pt>
 File: Pictures/ChapterHeadings/header_11.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_11.jpg>
@@ -2229,28 +2230,28 @@ Package pdftex.def Info: Pictures/ChapterHeadings/header_11.jpg used on input l
 ine 1.
 (pdftex.def)             Requested size: 614.295pt x 348.10371pt.
 
-<pictures/plotluck/mpgall.png, id=2434, 773.89125pt x 541.02126pt>
+<pictures/plotluck/mpgall.png, id=2433, 773.89125pt x 541.02126pt>
 File: pictures/plotluck/mpgall.png Graphic file (type png)
 
 <use pictures/plotluck/mpgall.png>
 Package pdftex.def Info: pictures/plotluck/mpgall.png used on input line 19.
 (pdftex.def)             Requested size: 216.09877pt x 151.07214pt.
 
-<pictures/plotluck/mpg1.png, id=2435, 773.89125pt x 541.02126pt>
+<pictures/plotluck/mpg1.png, id=2434, 773.89125pt x 541.02126pt>
 File: pictures/plotluck/mpg1.png Graphic file (type png)
 
 <use pictures/plotluck/mpg1.png>
 Package pdftex.def Info: pictures/plotluck/mpg1.png used on input line 26.
 (pdftex.def)             Requested size: 216.09877pt x 151.07214pt.
 
-<pictures/plotluck/mpg2.png, id=2436, 773.89125pt x 541.02126pt>
+<pictures/plotluck/mpg2.png, id=2435, 773.89125pt x 541.02126pt>
 File: pictures/plotluck/mpg2.png Graphic file (type png)
 
 <use pictures/plotluck/mpg2.png>
 Package pdftex.def Info: pictures/plotluck/mpg2.png used on input line 33.
 (pdftex.def)             Requested size: 216.09877pt x 151.07214pt.
 
-<pictures/plotluck/diamonds1.png, id=2439, 773.89125pt x 541.02126pt>
+<pictures/plotluck/diamonds1.png, id=2438, 773.89125pt x 541.02126pt>
 File: pictures/plotluck/diamonds1.png Graphic file (type png)
 
 <use pictures/plotluck/diamonds1.png>
@@ -2258,7 +2259,7 @@ Package pdftex.def Info: pictures/plotluck/diamonds1.png used on input line 42.
 
 (pdftex.def)             Requested size: 216.09877pt x 151.07214pt.
 
-<pictures/plotluck/txhousingall.png, id=2440, 773.89125pt x 541.02126pt>
+<pictures/plotluck/txhousingall.png, id=2439, 773.89125pt x 541.02126pt>
 File: pictures/plotluck/txhousingall.png Graphic file (type png)
 
 <use pictures/plotluck/txhousingall.png>
@@ -2290,25 +2291,25 @@ ine 130.
 
 
 ]
-<Pictures/ChapterHeadings/header_12.jpg, id=2556, 1084.05pt x 614.295pt>
+<Pictures/ChapterHeadings/header_12.jpg, id=2555, 1084.05pt x 614.295pt>
 File: Pictures/ChapterHeadings/header_12.jpg Graphic file (type jpg)
 
 <use Pictures/ChapterHeadings/header_12.jpg>
 Package pdftex.def Info: Pictures/ChapterHeadings/header_12.jpg used on input l
-ine 184.
+ine 185.
 (pdftex.def)             Requested size: 614.295pt x 348.10838pt.
  [99 <./Pictures/ChapterHeadings/header_12.jpg>]
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
  [100]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./main.aux (./ANOVA.aux) (./neuralnetwork.aux)
 (./shiny.aux) (./desolve.aux) (./clustering.aux) (./microseq.aux)
 (./biodiversity.aux) (./html.aux) (./pi.aux) (./plotluck.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C74A9791ACA80A43818AA2889BDF85BE;6475.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2317,10 +2318,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  37285 strings out of 493089
- 671614 string characters out of 6134842
- 1439584 words of memory out of 5000000
- 38323 multiletter control sequences out of 15000+600000
- 80909 words of font info for 195 fonts, out of 8000000 for 9000
+ 671568 string characters out of 6134842
+ 1439579 words of memory out of 5000000
+ 38321 multiletter control sequences out of 15000+600000
+ 78299 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,13n,59p,10503b,3881s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -2337,10 +2338,10 @@ f-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2015/texmf-
 dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/avantgar/uagk8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/avantgar/uagko8a.pfb>
-Output written on main.pdf (100 pages, 18347212 bytes).
+Output written on main.pdf (100 pages, 19338762 bytes).
 PDF statistics:
- 2964 PDF objects out of 2984 (max. 8388607)
- 2633 compressed objects within 27 object streams
- 1562 named destinations out of 1728 (max. 500000)
- 31806 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 2963 PDF objects out of 2984 (max. 8388607)
+ 2632 compressed objects within 27 object streams
+ 1561 named destinations out of 1728 (max. 500000)
+ 31294 words of extra memory for PDF output out of 35830 (max. 10000000)
 

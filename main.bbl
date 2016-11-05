@@ -1,0 +1,554 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{inat}{online}{}
+  \field{sortinit}{A}
+  \field{title}{Accessing INaturalist Data.}
+  \verb{url}
+  \verb https://ropensci.org/blog/2014/03/26/rinat/
+  \endverb
+  \field{month}{10}
+  \field{year}{2016}
+\endentry
+
+\entry{andersson}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Andersson}{A.}%
+     {Eve}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AE1}
+  \strng{fullhash}{AE1}
+  \field{sortinit}{A}
+  \field{title}{Calculation of Pi Using the Monte Carlo Method}
+\endentry
+
+\entry{Barve}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barve}{B.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Ecological Informatics}%
+  }
+  \strng{namehash}{BV1}
+  \strng{fullhash}{BV1}
+  \field{sortinit}{B}
+  \field{title}{Discovering and developing primary biodiversity data from
+  social networking sites: A novel approach}
+  \verb{url}
+  \verb http://doi.org/10.1016/j.ecoinf.2014.08.008
+  \endverb
+  \field{volume}{24}
+  \field{year}{2014}
+\endentry
+
+\entry{vbarve}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barve}{B.}%
+     {Vijay}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BV2}
+  \strng{fullhash}{BV2}
+  \field{sortinit}{B}
+  \verb{url}
+  \verb https://vijaybarve.wordpress.com/tag/bdvis/
+  \endverb
+  \field{month}{10}
+  \field{year}{2016}
+\endentry
+
+\entry{barvegit}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barve}{B.}%
+     {Vijay}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BV2}
+  \strng{fullhash}{BV2}
+  \field{sortinit}{B}
+  \field{title}{bdvis}
+  \verb{url}
+  \verb https://github.com/vijaybarve/bdvis
+  \endverb
+  \field{month}{10}
+  \field{year}{2016}
+\endentry
+
+\entry{bios221}{online}{}
+  \field{sortinit}{B}
+  \field{title}{Bios221}
+  \verb{url}
+  \verb https://web.stanford.edu/class/bios221/labs/
+  \endverb
+\endentry
+
+\entry{chasnov}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Chasnov}{C.}%
+     {Jeffrey~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Hong Kong University of Science}%
+    {Technology}%
+  }
+  \strng{namehash}{CJR1}
+  \strng{fullhash}{CJR1}
+  \field{sortinit}{C}
+  \field{title}{Introduction to Differential Equations}
+  \verb{url}
+  \verb https://www.math.ust.hk/~machas/differential-equations.pdf
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{gapminder}{online}{}
+  \list{publisher}{1}{%
+    {Gapminder}%
+  }
+  \field{sortinit}{D}
+  \field{title}{Data in Gapminder World}
+  \verb{url}
+  \verb https://www.gapminder.org/data/
+  \endverb
+\endentry
+
+\entry{htmlwidget}{online}{}
+  \list{publisher}{1}{%
+    {RStudio}%
+  }
+  \field{sortinit}{H}
+  \field{title}{htmlwidgets for R}
+  \verb{url}
+  \verb http://www.htmlwidgets.org/index.html
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{GBIF}{report}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kelling}{K.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Global Biodiversity Information Facility}%
+  }
+  \strng{namehash}{KS1}
+  \strng{fullhash}{KS1}
+  \field{sortinit}{K}
+  \field{title}{Significance of organism observations: Data discovery and
+  access in biodiversity research}
+  \verb{url}
+  \verb http://www.gbif.org/orc/?doc_id=1642
+  \endverb
+\endentry
+
+\entry{leaflet}{online}{}
+  \list{publisher}{1}{%
+    {RStudio}%
+  }
+  \field{sortinit}{L}
+  \field{title}{Leaflet for R}
+  \verb{url}
+  \verb http://rstudio.github.io/leaflet/
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{Martos}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Martos}{M.}%
+     {Gabriel}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MG1}
+  \strng{fullhash}{MG1}
+  \field{sortinit}{M}
+  \field{title}{Cluster Analysis with R}
+  \verb{url}
+  \verb https://rstudio-pubs-static.s3.amazonaws.com/33876_1d7794d9a86647ca90c4
+  \verb f182df93f0e8.html
+  \endverb
+\endentry
+
+\entry{jaspar}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Mathelier}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhao}{Z.}%
+     {X.}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {A.~W.}{A.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MAZXZAW1}
+  \strng{fullhash}{MAZXZAW1}
+  \field{sortinit}{M}
+  \field{title}{JASPAR 2014: an extensively expanded and updated open-access
+  database of transcription factor binding profiles}
+  \field{volume}{42}
+  \field{month}{01}
+  \field{year}{2014}
+\endentry
+
+\entry{nielsen}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nielsen}{N.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Determination Press}%
+  }
+  \strng{namehash}{NM1}
+  \strng{fullhash}{NM1}
+  \field{sortinit}{N}
+  \field{title}{Neural Networks and Deep Learning}
+  \field{year}{2015}
+\endentry
+
+\entry{Novomestky}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Novomestky}{N.}%
+     {Frederick}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NF1}
+  \strng{fullhash}{NF1}
+  \field{sortinit}{N}
+  \field{title}{Cluster Analysis Data Sets}
+  \verb{url}
+  \verb https://cran.r-project.org/web/packages/cluster.datasets/cluster.datase
+  \verb ts.pdf
+  \endverb
+  \field{year}{2013}
+\endentry
+
+\entry{rblog}{online}{}
+  \field{sortinit}{P}
+  \field{title}{Package Bdvis Is on CRAN}
+  \verb{url}
+  \verb https://www.r-bloggers.com/package-bdvis-is-on-cran/
+  \endverb
+  \field{month}{10}
+  \field{year}{2016}
+\endentry
+
+\entry{pagesaboyoun}{online}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Pag{\'e}s}{P.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aboyoun}{A.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Genteleman}{G.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {DebRoy}{D.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PH+1}
+  \strng{fullhash}{PHAPGRDS1}
+  \field{sortinit}{P}
+  \field{title}{Biostrings}
+  \verb{url}
+  \verb https://bioconductor.org/packages/release/bioc/html/Biostrings.html
+  \endverb
+  \field{year}{2003}
+\endentry
+
+\entry{rdoc}{online}{}
+  \field{sortinit}{R}
+  \field{title}{RDocumentation}
+  \verb{url}
+  \verb https://www.rdocumentation.org
+  \endverb
+  \field{month}{10}
+  \field{year}{2016}
+\endentry
+
+\entry{GBIFbirds}{online}{}
+  \field{sortinit}{S}
+  \field{title}{SAFRING: Historical Bird Ringing Records}
+  \verb{url}
+  \verb http://www.gbif.org/dataset/b4ae1720-1431-49ee-bfeb-8146fc42b1a3
+  \endverb
+  \field{month}{10}
+  \field{year}{2016}
+\endentry
+
+\entry{cran-vignette}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schroedl}{S.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SS1}
+  \strng{fullhash}{SS1}
+  \field{sortinit}{S}
+  \field{title}{Plotluck - "I'm feeling lucky" for ggplot}
+  \verb{url}
+  \verb https://cran.r-project.org/web/packages/plotluck/vignettes/plotluck.htm
+  \verb l
+  \endverb
+  \field{month}{09}
+  \field{year}{2016}
+\endentry
+
+\entry{cran}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schroedl}{S.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SS1}
+  \strng{fullhash}{SS1}
+  \field{sortinit}{S}
+  \field{title}{plotluck: 'ggplot2' Version of "I'm Feeling Lucky!"}
+  \verb{url}
+  \verb https://cran.r-project.org/web/packages/plotluck/index.html
+  \endverb
+  \field{version}{1.0.0}
+  \field{month}{09}
+  \field{year}{2016}
+\endentry
+
+\entry{CRANR}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Seefield}{S.}%
+     {Kim}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Linder}{L.}%
+     {Ernst}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SKLE1}
+  \strng{fullhash}{SKLE1}
+  \field{sortinit}{S}
+  \field{title}{Statistics Using R with Biological Examples}
+  \list{institution}{1}{%
+    {University of New Hampshire}%
+  }
+  \field{year}{2007}
+\endentry
+
+\entry{SP}{report}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Shanmughavel}{S.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Bioinformation}%
+  }
+  \strng{namehash}{SP1}
+  \strng{fullhash}{SP1}
+  \field{sortinit}{S}
+  \field{title}{An overview on biodiversity information in databases}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/17597923
+  \endverb
+  \field{volume}{1(9)}
+  \field{year}{2007}
+\endentry
+
+\entry{gallery}{online}{}
+  \list{publisher}{1}{%
+    {Rstudio}%
+  }
+  \field{sortinit}{S}
+  \field{title}{Shiny - Movie Explorer}
+  \verb{url}
+  \verb http://shiny.rstudio.com/gallery/movie-explorer.html
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{smoller}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Smoller}{S.}%
+     {Laura}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Arkansas, Little Rock}%
+  }
+  \strng{namehash}{SL1}
+  \strng{fullhash}{SL1}
+  \field{sortinit}{S}
+  \field{title}{The Amazing History of Pi}
+  \field{month}{02}
+  \field{year}{2001}
+\endentry
+
+\entry{snipenliland}{online}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Snipen}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liland}{L.}%
+     {K.~H.}{K.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SLLKH1}
+  \strng{fullhash}{SLLKH1}
+  \field{sortinit}{S}
+  \field{title}{Package 'microseq'}
+  \verb{url}
+  \verb Available: https://cran.r-project.org/web/packages/microseq/microseq.pd
+  \verb f
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{soetaert}{online}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Soetaert}{S.}%
+     {Karline}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Petzoldt}{P.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Setzer}{S.}%
+     {R.~Woodrow}{R.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SKPTSRW1}
+  \strng{fullhash}{SKPTSRW1}
+  \field{sortinit}{S}
+  \field{title}{Package deSolve: Initial Value Differential Equations in R}
+  \verb{url}
+  \verb https://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{stan}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stan}{S.}%
+     {Guy-Bart}{G.-B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Imperial College of London}%
+  }
+  \strng{namehash}{SGB1}
+  \strng{fullhash}{SGB1}
+  \field{sortinit}{S}
+  \field{title}{Modelling in Biology}
+  \verb{url}
+  \verb http://www.bg.ic.ac.uk/research/g.stan/2010_Course_MiB_article.pdf
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{shiny}{online}{}
+  \list{publisher}{1}{%
+    {Rstudio}%
+  }
+  \field{sortinit}{T}
+  \field{title}{Teach Yourself Shiny}
+  \verb{url}
+  \verb http://shiny.rstudio.com/tutorial/
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{yee}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Yee}{Y.}%
+     {Alexander~J.}{A.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YAJ1}
+  \strng{fullhash}{YAJ1}
+  \field{sortinit}{Y}
+  \field{title}{Y-cruncher - A Multi-Threaded Pi Program}
+  \field{year}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

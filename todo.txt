@@ -1,6 +1,4 @@
-move bibliography of plotluck to main file
-improve code formatting in shiny
-add new cover image
 add author references to each chapter
 consider breaking up bibliography
 add data/code to git repo
+change texttt to lstlinline

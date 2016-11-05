@@ -19,22 +19,22 @@ These are the basic components of a Shiny app: inputs and outputs.
 Here are some examples of Shiny input functions:
 \begin{itemize}
     \item \texttt{checkboxInput}: a single check box
-    \item dateInput: a calendar
-    \item fileInput: file upload
-    \item numericInput: enter number
-    \item radioButtons: set of radio buttons
-    \item selectInput: box with multiple choices
-    \item sliderInput: a slider bar
-    \item textInput: enter text
+    \item \texttt{dateInput}: a calendar
+    \item \texttt{fileInput}: file upload
+    \item \texttt{numericInput}: enter number
+    \item \texttt{radioButtons}: set of radio buttons
+    \item \texttt{selectInput}: box with multiple choices
+    \item \texttt{sliderInput}: a slider bar
+    \item \texttt{textInput}: enter text
 \end{itemize}
 \noindent The users of a Shiny app will interact solely with the inputs that you, the developer, will allow them to.
 The above inputs can collect various types of data input from the user, to determine many different types of outputs.
 Here are some of the output functions in Shiny:
 \begin{itemize}
-    \item imageOutput: creates image
-    \item plotOutput: creates a plot
-    \item tableOutput: creates a table
-    \item textOutput: creates text
+    \item \texttt{imageOutput}: creates image
+    \item \texttt{plotOutput}: creates a plot
+    \item \texttt{tableOutput}: creates a table
+    \item \texttt{textOutput}: creates text
 \end{itemize}
 
 Understanding how inputs and outputs relate to each other is a key requirement for developing a Shiny app.
@@ -52,7 +52,9 @@ This application will illustrate the progression of Olympic swimming medalists' 
 
 Shiny applications have a wide variety of uses. Today students will learn how to create a basic population prediction model. 
 
-\noindent To begin the application, open a new R script file in RStudio, clear the environment, set a working directory, and import the libraries necessary for this project. To clear the environment and set a directory use the following functions. Make sure you set a directory on your computer that the dataset is located in. 
+\noindent To begin the application, open a new R script file in RStudio, clear the environment, set a working directory, and import the libraries necessary for this project.
+To clear the environment and set a directory use the following functions.
+Make sure you set a directory on your computer that the dataset is located in. 
 
 \begin{lstlisting}[language = R]
 rm(list=ls())
@@ -88,8 +90,8 @@ popData <- read.csv("Population.csv")
 Shiny applications have two components: a user-interface definition and a server script.
 The user-interface is used to control the design and layouts of the Shiny application.
 The server script for the Shiny application controls the algorithms and code that tell the Shiny app how to manipulate the inputs to produce outputs.\cite{shiny} 
-Three functions --- headerPanel, sidebarPanel, and mainPanel --- define the various regions of the user-interface.
-The application will be called “Population Statistics” so we specify that as the title when we create the header panel.
+Three functions --- \texttt{headerPanel}, \texttt{sidebarPanel}, and \texttt{mainPanel} --- define the various regions of the user-interface.
+The application will be called ``Population Statistics'' so we specify that as the title when we create the header panel.
 The other panels are empty for now.
 We create a UI function with the aforementioned components, like this:
 \begin{lstlisting}[language = R]
@@ -100,7 +102,7 @@ ui <- shinyUI(fluidPage(
 ))
 \end{lstlisting}
 Next, define a skeletal server implementation.
-This can be done by creating a function called server with two parameters: input and output.
+This can be done by creating a function called server with two parameters: \texttt{input} and \texttt{output}.
 \begin{lstlisting}[language = R]
 server <- function(input, output) {
 
@@ -115,7 +117,7 @@ shinyApp(ui = ui, server = server)
 The skeletal structure of the simplest Shiny application possible is shown in figure \ref{fig:blank}. 
 Run the Shiny application by selecting all of your code and clicking the run button in the top right corner of RStudio.
 The blank Shiny application should open in a new window as shown in figure \ref{fig:blank}.
-\begin{figure}[h]
+\begin{figure}[htbp!]
    \centering
    \includegraphics[width=0.5\textwidth]{pictures/shiny/blank.PNG} 
    \caption{Blank Shiny App}
@@ -140,29 +142,30 @@ sidebarPanel(
     )
   )
 \end{lstlisting}
-The inputId is simply a name that we give to each input, so we can access them in the server function.
+The \texttt{inputId} is simply a name that we give to each input, so we can access them in the server function.
 The label is the text that will appear on the application above the input box.
 
 We also need to tell the application that our plot will be displayed in the main panel of the UI.
-This involves creating a plotOuput, like so: 
+This involves creating a \texttt{plotOuput}, like so: 
 \begin{lstlisting}[language = R]
  mainPanel(
     plotOutput(outputId = "myPlot")
  )
 \end{lstlisting}
-Just like in \texttt{selectInput}, we need to give the output an ID, so we can use that name to access it in the server function.
+Just like in \texttt{selectInput}, we need to give the output an ID, so we can use that name to access it in the \texttt{server} function.
 Once the model is run, the application should look like figure \ref{fig:drop}. 
-\begin{figure}[h]
+\begin{figure}[htbp!]
    \centering
    \includegraphics[width=0.5\textwidth]{pictures/shiny/dropdown.PNG} 
    \caption{Adding Inputs}
    \label{fig:drop}
 \end{figure}
 Next we need to define the server-side of the application which will accept inputs and compute outputs.
-Our server function will contain the code necessary to do this.
-We first tell the function that we are creating a plot as an output, and we can create the plot using the renderPlot command.
-The command renderPlot is what makes the application react.
-This means when a user changes the input, the output will instantly change. This is what makes Shiny so interactive.
+Our \texttt{server} function will contain the code necessary to do this.
+We first tell the function that we are creating a plot as an output, and we can create the plot using the \texttt{renderPlot} command.
+The command \texttt{renderPlot} is what makes the application react.
+This means when a user changes the input, the output will instantly change.
+This is what makes Shiny so interactive.
 
 Within the renderPlot function we first select what data we will use and then plot that data using the ggplot function.
 To select our data, create a variable called \texttt{dataInput}, and take a subset of the \texttt{.csv} file we imported into R.
@@ -189,7 +192,7 @@ server <- function(input, output) {
 Finally, run the entire code including the \texttt{shinyApp} command.
 Your screen should look like the screen displayed in Figure \ref{fig:example}.
 The application should have a working select box, a title, and a plot displaying the population data.
-\begin{figure}[h]
+\begin{figure}[htbp!]
    \centering
    \includegraphics[width = .5\textwidth]{pictures/shiny/pop.PNG} 
    \caption{Final Model}
@@ -215,7 +218,7 @@ In order to create color we just add \texttt{color = variablename}, inside the \
 aes(x=Time, y=Year, color=Medal)
 \end{lstlisting}
 The final shiny app screen should look like figure \ref{fig:olympic}
-\begin{figure}[h]
+\begin{figure}[htbp!]
    \centering
    \includegraphics[width = .5\textwidth]{pictures/shiny/olympic.PNG} 
    \caption{Deliverable}

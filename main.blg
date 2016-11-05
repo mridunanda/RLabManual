@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
+The style file: biblatex.bst
 A level-1 auxiliary file: ANOVA.aux
 A level-1 auxiliary file: neuralnetwork.aux
 A level-1 auxiliary file: shiny.aux
@@ -11,48 +12,67 @@ A level-1 auxiliary file: biodiversity.aux
 A level-1 auxiliary file: html.aux
 A level-1 auxiliary file: pi.aux
 A level-1 auxiliary file: plotluck.aux
-I found no \citation commands---while reading file main.aux
-I found no \bibdata command---while reading file main.aux
-I found no \bibstyle command---while reading file main.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            93 strings with 596 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: bibliography.bib
+Warning--string name "sept" is undefined
+--line 17 of file bibliography.bib
+Warning--string name "sept" is undefined
+--line 26 of file bibliography.bib
+Warning--string name "sept" is undefined
+--line 177 of file bibliography.bib
+Biblatex version: 3.0
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 31 entries,
+            6047 wiz_defined-function locations,
+            1270 strings with 11416 characters,
+and the built_in function-call counts, 80544 in all, are:
+= -- 3283
+> -- 2243
+< -- 955
++ -- 761
+- -- 720
+* -- 4394
+:= -- 4059
 add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+call.type$ -- 31
+change.case$ -- 501
+chr.to.int$ -- 88
+cite$ -- 60
+duplicate$ -- 9481
+empty$ -- 9293
+format.name$ -- 1153
+if$ -- 18907
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 69
 missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+newline$ -- 551
+num.names$ -- 1138
+pop$ -- 9682
+preamble$ -- 1
+purify$ -- 526
 quote$ -- 0
-skip$ -- 0
+skip$ -- 4966
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
+substring$ -- 1927
+swap$ -- 2868
+text.length$ -- 690
+text.prefix$ -- 30
+top$ -- 1
+type$ -- 1166
 warning$ -- 0
-while$ -- 0
+while$ -- 481
 width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+write$ -- 519
+(There were 3 warnings)

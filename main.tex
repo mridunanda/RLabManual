@@ -14,9 +14,9 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt]{book} % Default font size and left-justified equations
+\documentclass[11pt]{book} % Default font size
 
-\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins
+\usepackage[paperwidth=6in,paperheight=9in,top=.5in,bottom=.5in,outer=.75in,inner=.5in,headsep=10pt]{geometry} % Page margins
 
 \usepackage{graphicx}
 
@@ -61,7 +61,6 @@
     morekeywords={*,...},
     deletekeywords = {data}
 }
-
 \usepackage{setspace}
 
 \usepackage{xcolor} % Required for specifying colors by name
@@ -75,7 +74,7 @@
 \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
-\usepackage[utf8]{inputenc} % Required for including letters with accents
+%\usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 
 \usepackage{csquotes}
@@ -95,15 +94,13 @@
 
 \begingroup
 \thispagestyle{empty}
-\AddToShipoutPicture*{\put(0,0){\includegraphics[width=8.5in]{pictures/technology-backdrop.jpg}}} % Image background
+\AddToShipoutPicture*{\put(0,0){\includegraphics[height=\paperheight]{pictures/technology-backdrop.jpg}}} % Image background
 %\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.0]{galaxy_spacewarp.jpg}}}
 \centering
-\vspace*{8cm}
-\par\normalfont\fontsize{35}{35}\sffamily\selectfont
+\vspace*{7.5cm}
+\par\normalfont\Huge\sffamily\selectfont
 \textbf{\textcolor{black}{Case Studies Using the R Programming Language}}\\
-{\LARGE }\par % Book title
-%\vspace*{1cm}
-{\Large\textcolor{black}{ Katherine~Bennett, Miguel~de~los~Reyes, Hannah~Gahagan, Raymond~Gao, Sophia~Hurr, Nikhil~Milind, Mridu~Nanda, Christa~Parrish, Ishaan~Rao, Margaux~Winter, Grayson~York}}\par % Author name
+{\normalsize \textcolor{black}{ Katherine~Bennett, Miguel~de~los~Reyes, Hannah~Gahagan, Raymond~Gao, Sophia~Hurr, Nikhil~Milind, Mridu~Nanda, Christa~Parrish, Ishaan~Rao, Margaux~Winter, Grayson~York}}\par % Author name
 \endgroup
 
 %----------------------------------------------------------------------------------------
@@ -183,5 +180,6 @@ Gotwals will write an Intro.
 
 \chapterimage{Pictures/ChapterHeadings/header_12.jpg}
 
+\nocite{*}
 \printbibliography
 \end{document}

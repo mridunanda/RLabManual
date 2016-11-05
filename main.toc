@@ -12,189 +12,189 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.2}Visualization}{10}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Building the Model}{10}{section.1.3}
+\contentsline {section}{\numberline {1.3}Building the Model}{11}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Programming Hints}{12}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Programming Hints}{13}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Deliverable}{12}{section.1.4}
+\contentsline {section}{\numberline {1.4}Deliverable}{13}{section.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.5}Teaching Code}{13}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Example Student Code}{13}{section.1.6}
+\contentsline {section}{\numberline {1.6}Example Student Code}{14}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Further Readings}{15}{section.1.7}
+\contentsline {section}{\numberline {1.7}Further Readings}{16}{section.1.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Neural Networks}{17}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Introduction to Neural Networks}{17}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Neural Networks with Sigmoid Neurons}{18}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Neural Networks with Sigmoid Neurons}{19}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Training in a Neural Network}{19}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Measuring Predictive Error}{20}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Installation}{20}{section.2.2}
+\contentsline {section}{\numberline {2.2}Installation}{21}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Objectives of Case Study}{21}{section.2.3}
+\contentsline {section}{\numberline {2.3}Objectives of Case Study}{22}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Case Study - Boston Housing Database}{21}{section.2.4}
+\contentsline {section}{\numberline {2.4}Case Study - Boston Housing Database}{22}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Loading and Separating the Data}{22}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Loading and Separating the Data}{23}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Linear Model for Comparison}{23}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Linear Model for Comparison}{24}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Neural Network Setup and Execution}{23}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Neural Network Setup and Execution}{24}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Graphical Representation}{24}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.4}Graphical Representation}{26}{subsection.2.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Student Assignment - Temperature Dataset}{25}{section.2.5}
+\contentsline {section}{\numberline {2.5}Student Assignment - Temperature Dataset}{27}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Downloading The Dataset}{27}{section.2.6}
+\contentsline {section}{\numberline {2.6}Downloading The Dataset}{29}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Shiny Package Tutorial}{29}{chapter.3}
+\contentsline {chapter}{\numberline {3}Shiny Package Tutorial}{31}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introductory Reading}{29}{section.3.1}
+\contentsline {section}{\numberline {3.1}Introductory Reading}{31}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Objectives}{30}{section.3.2}
+\contentsline {section}{\numberline {3.2}Objectives}{32}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Building the Model}{31}{section.3.3}
+\contentsline {section}{\numberline {3.3}Building the Model}{33}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Deliverable}{34}{section.3.4}
+\contentsline {section}{\numberline {3.4}Deliverable}{37}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Programming Hints}{34}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Programming Hints}{37}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Teaching Code}{35}{section.3.5}
+\contentsline {section}{\numberline {3.5}Teaching Code}{37}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Example Student Code}{36}{section.3.6}
+\contentsline {section}{\numberline {3.6}Example Student Code}{39}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Further Readings}{38}{section.3.7}
+\contentsline {section}{\numberline {3.7}Further Readings}{41}{section.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}deSolve}{39}{chapter.4}
+\contentsline {chapter}{\numberline {4}deSolve}{43}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction to Computational Differential Solutions}{39}{section.4.1}
+\contentsline {section}{\numberline {4.1}Introduction to Computational Differential Solutions}{43}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Examples of Differential Equations}{40}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Examples of Differential Equations}{44}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Installation}{40}{section.4.2}
+\contentsline {section}{\numberline {4.2}Installation}{44}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Objectives of Case Study}{40}{section.4.3}
+\contentsline {section}{\numberline {4.3}Objectives of Case Study}{45}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Case Study - Dampened Mass-Spring System}{41}{section.4.4}
+\contentsline {section}{\numberline {4.4}Case Study - Dampened Mass-Spring System}{45}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Computational Solutions}{42}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Computational Solutions}{47}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Improving the System}{44}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Improving the System}{48}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Student Assignment - Modelling of Genetic Processes}{47}{section.4.5}
+\contentsline {section}{\numberline {4.5}Student Assignment - Modelling of Genetic Processes}{50}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Constitutive Gene Expression}{47}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Constitutive Gene Expression}{53}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Gene Transcription Regulation}{51}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Gene Transcription Regulation}{56}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Activators and Repressors}{51}{section*.3}
+\contentsline {subsubsection}{Activators and Repressors}{56}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Regulation}{53}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.3}Regulation}{59}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Conclusion}{55}{section.4.6}
+\contentsline {section}{\numberline {4.6}Conclusion}{61}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Acknowledgements}{56}{section.4.7}
+\contentsline {section}{\numberline {4.7}Acknowledgements}{61}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Clustering}{57}{chapter.5}
+\contentsline {chapter}{\numberline {5}Clustering}{63}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Building the Model}{58}{section.5.1}
+\contentsline {section}{\numberline {5.1}Building the Model}{64}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Programming Hints}{58}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Programming Hints}{64}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Deliverable}{58}{section.5.2}
+\contentsline {section}{\numberline {5.2}Deliverable}{64}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Teaching Code}{58}{section.5.3}
+\contentsline {section}{\numberline {5.3}Teaching Code}{64}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Example Student Code}{60}{section.5.4}
+\contentsline {section}{\numberline {5.4}Example Student Code}{66}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Further Readings}{62}{section.5.5}
+\contentsline {section}{\numberline {5.5}Further Readings}{67}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Microseq}{63}{chapter.6}
+\contentsline {chapter}{\numberline {6}Microseq}{69}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introductory Reading}{63}{section.6.1}
+\contentsline {section}{\numberline {6.1}Introductory Reading}{69}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Objectives of the Case Study}{64}{section.6.2}
+\contentsline {section}{\numberline {6.2}Objectives of the Case Study}{70}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Objective 1}{64}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Objective 1}{70}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Building the Model}{64}{section.6.3}
+\contentsline {section}{\numberline {6.3}Building the Model}{70}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Deliverable}{64}{section.6.4}
+\contentsline {section}{\numberline {6.4}Deliverable}{70}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Teaching Code}{64}{section.6.5}
+\contentsline {section}{\numberline {6.5}Teaching Code}{70}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Example Student Code}{65}{section.6.6}
+\contentsline {section}{\numberline {6.6}Example Student Code}{72}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Further Readings}{66}{section.6.7}
+\contentsline {section}{\numberline {6.7}Further Readings}{73}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Biodiversity}{67}{chapter.7}
+\contentsline {chapter}{\numberline {7}Biodiversity}{75}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Introduction to Biodiversity}{67}{section.7.1}
+\contentsline {section}{\numberline {7.1}Introduction to Biodiversity}{75}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Direct Surveys}{68}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.1}Direct Surveys}{76}{subsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}Broad Surveys}{68}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.2}Broad Surveys}{76}{subsection.7.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}Biological Collections}{68}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.3}Biological Collections}{76}{subsection.7.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Objectives of the Case Study}{68}{section.7.2}
+\contentsline {section}{\numberline {7.2}Objectives of the Case Study}{77}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Building the Model}{69}{section.7.3}
+\contentsline {section}{\numberline {7.3}Building the Model}{77}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Programming Hints}{73}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Programming Hints}{83}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Teaching Code}{73}{section.7.4}
+\contentsline {section}{\numberline {7.4}Teaching Code}{83}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Example Student Code}{74}{section.7.5}
+\contentsline {section}{\numberline {7.5}Example Student Code}{84}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}HTML Widgets}{75}{chapter.8}
+\contentsline {chapter}{\numberline {8}HTML Widgets}{87}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Introduction}{75}{section.8.1}
+\contentsline {section}{\numberline {8.1}Introduction}{87}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Installation}{75}{section.8.2}
+\contentsline {section}{\numberline {8.2}Installation}{87}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Leaflet}{76}{section.8.3}
+\contentsline {section}{\numberline {8.3}Leaflet}{88}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Leaflet Demonstration 1 - A Simple Map}{76}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.1}Leaflet Demonstration 1 - A Simple Map}{88}{subsection.8.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Leaflet Demonstration 2 - Map Tiles}{77}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.2}Leaflet Demonstration 2 - Map Tiles}{89}{subsection.8.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Web Map Service Tiles}{78}{section*.4}
+\contentsline {subsubsection}{Web Map Service Tiles}{91}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Leaflet Student Demonstration - Markers}{79}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.3}Leaflet Student Demonstration - Markers}{92}{subsection.8.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Estimating Pi Using Monte~Carlo Simulations}{83}{chapter.9}
+\contentsline {chapter}{\numberline {9}Estimating Pi}{95}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Introductory Reading}{83}{section.9.1}
+\contentsline {section}{\numberline {9.1}Introductory Reading}{95}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Objectives of the Case Study}{83}{section.9.2}
+\contentsline {section}{\numberline {9.2}Objectives of the Case Study}{96}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Building the Model}{84}{section.9.3}
+\contentsline {section}{\numberline {9.3}Building the Model}{96}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Deliverable}{88}{section.9.4}
+\contentsline {section}{\numberline {9.4}Deliverable}{100}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Teaching Code}{88}{section.9.5}
+\contentsline {section}{\numberline {9.5}Teaching Code}{100}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.6}Example Student Code}{88}{section.9.6}
+\contentsline {section}{\numberline {9.6}Example Student Code}{101}{section.9.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.7}Further Readings}{89}{section.9.7}
+\contentsline {section}{\numberline {9.7}Further Readings}{103}{section.9.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Plotluck}{91}{chapter.10}
+\contentsline {chapter}{\numberline {10}Plotluck}{105}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Introduction}{91}{section.10.1}
+\contentsline {section}{\numberline {10.1}Introduction}{105}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Objectives}{91}{section.10.2}
+\contentsline {section}{\numberline {10.2}Objectives}{105}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Deliverable}{91}{section.10.3}
+\contentsline {section}{\numberline {10.3}Deliverable}{105}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Teaching Code}{91}{section.10.4}
+\contentsline {section}{\numberline {10.4}Teaching Code}{108}{section.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}Example Student Code}{94}{section.10.5}
+\contentsline {section}{\numberline {10.5}Example Student Code}{109}{section.10.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.6}Further Readings}{95}{section.10.6}
+\contentsline {section}{\numberline {10.6}Further Readings}{109}{section.10.6}
 \contentsfinish 

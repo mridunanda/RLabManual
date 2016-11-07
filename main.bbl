@@ -108,6 +108,24 @@
   \endverb
 \endentry
 
+\entry{chang}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Chang}{C.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {O'Reilly}%
+  }
+  \strng{namehash}{CW1}
+  \strng{fullhash}{CW1}
+  \field{sortinit}{C}
+  \field{title}{R Graphics Cookbook}
+  \field{year}{2013}
+\endentry
+
 \entry{chasnov}{online}{}
   \name{author}{1}{}{%
     {{}%
@@ -130,6 +148,32 @@
   \field{year}{2016}
 \endentry
 
+\entry{colbyandortman}{online}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Colby}{C.}%
+     {S.~L.}{S.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ortman}{O.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CSLOJM1}
+  \strng{fullhash}{CSLOJM1}
+  \field{sortinit}{C}
+  \field{title}{Projections of the Size and Composition of the U.S. Population:
+  2014 to 2060}
+  \verb{url}
+  \verb http://www.census.gov/content/dam/Census/library/publications/2015/demo
+  \verb /p25-1143.pdf
+  \endverb
+  \field{month}{03}
+  \field{year}{2015}
+\endentry
+
 \entry{gapminder}{online}{}
   \list{publisher}{1}{%
     {Gapminder}%
@@ -139,6 +183,15 @@
   \verb{url}
   \verb https://www.gapminder.org/data/
   \endverb
+\endentry
+
+\entry{ggplot2}{online}{}
+  \field{sortinit}{G}
+  \field{title}{Ggplot2}
+  \verb{url}
+  \verb http://ggplot2.org/
+  \endverb
+  \field{year}{2013}
 \endentry
 
 \entry{htmlwidget}{online}{}
@@ -426,6 +479,7 @@
   \verb{url}
   \verb http://shiny.rstudio.com/gallery/movie-explorer.html
   \endverb
+  \field{month}{09}
   \field{year}{2016}
 \endentry
 
@@ -530,6 +584,7 @@
   \verb{url}
   \verb http://shiny.rstudio.com/tutorial/
   \endverb
+  \field{month}{09}
   \field{year}{2016}
 \endentry
 
@@ -545,6 +600,7 @@
   \strng{fullhash}{YAJ1}
   \field{sortinit}{Y}
   \field{title}{Y-cruncher - A Multi-Threaded Pi Program}
+  \field{month}{09}
   \field{year}{2016}
 \endentry
 

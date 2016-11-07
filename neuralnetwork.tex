@@ -10,7 +10,7 @@ These computers contain a neural network that has been trained to recognize hand
 
 \begin{figure}[htbp!]
    \centering
-   \includegraphics[scale=0.75]{pictures/NeuralNetworks/neuron.jpg} 
+   \includegraphics[width=0.5\textwidth]{pictures/NeuralNetworks/neuron.jpg} 
    \caption{The Parts of an Anatomical Neuron}
    \label{fig:neuron}
 \end{figure}
@@ -40,7 +40,7 @@ This type of function is known as the sigmoid function, and the resulting neuron
 \subsection{Neural Networks with Sigmoid Neurons}
 
 With practice, humans can arrange sigmoid neurons to generate a functional unit that can take inputs and produce a certain computational output.
-Functionally, sigmoid neurons act as NAND gates, which are universal to computational procedures.
+Functionally, sigmoid neurons act as \texttt{NAND} gates, which are universal to computational procedures.
 However, the true value of the neural network lies in data and input values that do not have any discernible pattern.
 In such cases, neural networks are capable of learning patterns by themselves.
 Therefore, neural networks can be trained with an initial data set, after which they can predict the output values of new information.
@@ -150,7 +150,9 @@ It contains data on housing sales, including the area of the house sold, the loc
 
 \subsection{Loading and Separating the Data}
 
-Create a R script file and enter the following code. This code will set up the environment for the neural network. We load the data into our scripting environment, modify it to fit the neuralnet package, and split it into a training and testing dataset. 
+Create a R script file and enter the following code.
+This code will set up the environment for the neural network.
+We load the data into our scripting environment, modify it to fit the neuralnet package, and split it into a training and testing dataset. 
 \begin{lstlisting}
 # Name:     neural.R
 # Author:   First Last
@@ -177,7 +179,7 @@ data <- Boston
 hiddenLayers = c(5, 3)
 \end{lstlisting}
 
-Unfortunately, the neuralnet package cannot handle NULL values in the data.
+Unfortunately, the neuralnet package cannot handle \texttt{NULL} values in the data.
 Therefore, we must remove such extraneous data from the dataset.
 
 \begin{lstlisting}
@@ -206,7 +208,8 @@ test <- data[-index,]
 \subsection{Linear Model for Comparison}
 
 First, we run the data through a simple linear model to see how well a linearly scaled system can predict the value of interest in the data set.
-Our data frame is constructed so that the last column, named \verb|data$medv|, is what is predicted. Every other column is the value of a pixel in the image.
+Our data frame is constructed so that the last column, named \texttt{data\$medv}, is what is predicted.
+Every other column is the value of a pixel in the image.
 
 \begin{lstlisting}
 # Create a regression line using prog as the prognostic variable
@@ -226,7 +229,7 @@ We now work to set up the data for the neural network.
 Neural networks generally do not work well with non-uniform distributions of data.
 Therefore, we will scale every column to distribute the values correctly.
 When we scale the data set, we will lose the true values.
-Therefore, it is important to ''unscale'' the data once we generate output from the network.
+Therefore, it is important to ``unscale'' the data once we generate output from the network.
 
 \begin{lstlisting}
 # Create a list of maximums from each data column
@@ -266,7 +269,7 @@ plot(nn)
 \end{lstlisting}
 
 Just like the linear model that we use to compare, we will calculate the Mean-Squared Error of the neural network.
-For this, we extract the predictions of the neural network and ''unscale'' them. 
+For this, we extract the predictions of the neural network and ``unscale'' them. 
 
 \begin{lstlisting}
 # Compute predictions from our neural network
@@ -311,11 +314,14 @@ abline(0, 1, lwd=2)
 legend("bottomright", legend=c("NN", "LM"), pch=18, col=c("red", "blue"))
 \end{lstlisting}
 
-A proper execution of the neural network should show that the Mean-Squared Error of the generalized linear fit model is much higher than that of the neural network. Furthermore, the graphs should portray a tighter clustering of the neural network data points around the linear fit. 
+A proper execution of the neural network should show that the Mean-Squared Error of the generalized linear fit model is much higher than that of the neural network.
+Furthermore, the graphs should portray a tighter clustering of the neural network data points around the linear fit. 
 
 \section{Student Assignment - Temperature Dataset} 
 
-The student is tasked with creating a neural network that interprets a dataset that contains the monthly temperatures from January to November over multiple years. The goal of the network is to predict the temperatures of the month of December. The following code should be used to parse the data:
+The student is tasked with creating a neural network that interprets a dataset that contains the monthly temperatures from January to November over multiple years.
+The goal of the network is to predict the temperatures of the month of December.
+The following code should be used to parse the data:
 
 \begin{lstlisting}
 # Name:         neuralStudent.R
@@ -336,7 +342,9 @@ data <- datafornnet
 rm(monthlyavg, rawdata, tempdevs, temps, months, mat, datafornnet)
 \end{lstlisting}
 
-Thus, the data set is stored in a variable called \verb|data|. The neural network can now be built by the students. The name of the variable being predicted is \verb|Prog|. 
+Thus, the data set is stored in a variable called \texttt{data}.
+The neural network can now be built by the students.
+The name of the variable being predicted is \texttt{Prog}. 
 
 \begin{lstlisting}
 # Clear environment variables

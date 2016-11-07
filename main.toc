@@ -197,4 +197,20 @@
 \contentsline {section}{\numberline {10.5}Example Student Code}{109}{section.10.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.6}Further Readings}{109}{section.10.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {11}ggplot2}{111}{chapter.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.1}Introduction}{111}{section.11.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.2}Objectives of the Case Study}{112}{section.11.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.3}Building the Model}{112}{section.11.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.4}Deliverable}{115}{section.11.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.5}Teaching Code}{115}{section.11.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.6}Example Student Code}{119}{section.11.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.7}Further Readings}{122}{section.11.7}
 \contentsfinish 

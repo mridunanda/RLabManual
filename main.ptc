@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Example Student Code}{14}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Further Readings}{16}{section.1.7}
+\contentsline {section}{\numberline {1.7}Further Readings}{15}{section.1.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Neural Networks}{17}{chapter.2}
 \ttl@stoptoc {default@1}
@@ -63,9 +63,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Objectives}{32}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Building the Model}{33}{section.3.3}
+\contentsline {section}{\numberline {3.3}Building the Model}{32}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Deliverable}{37}{section.3.4}
+\contentsline {section}{\numberline {3.4}Deliverable}{36}{section.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Programming Hints}{37}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
@@ -95,7 +95,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Student Assignment - Modelling of Genetic Processes}{50}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Constitutive Gene Expression}{53}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Constitutive Gene Expression}{52}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Gene Transcription Regulation}{56}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
@@ -159,79 +159,79 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Building the Model}{77}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Programming Hints}{83}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Programming Hints}{82}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Teaching Code}{83}{section.7.4}
+\contentsline {section}{\numberline {7.4}Teaching Code}{82}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Example Student Code}{84}{section.7.5}
+\contentsline {section}{\numberline {7.5}Example Student Code}{83}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}HTML Widgets}{87}{chapter.8}
+\contentsline {chapter}{\numberline {8}HTML Widgets}{85}{chapter.8}
 \ttl@stoptoc {default@7}
 \ttl@starttoc {default@8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Introduction}{87}{section.8.1}
+\contentsline {section}{\numberline {8.1}Introduction}{85}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Installation}{87}{section.8.2}
+\contentsline {section}{\numberline {8.2}Installation}{85}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Leaflet}{88}{section.8.3}
+\contentsline {section}{\numberline {8.3}Leaflet}{86}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Leaflet Demonstration 1 - A Simple Map}{88}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.1}Leaflet Demonstration 1 - A Simple Map}{86}{subsection.8.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Leaflet Demonstration 2 - Map Tiles}{89}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.2}Leaflet Demonstration 2 - Map Tiles}{87}{subsection.8.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Web Map Service Tiles}{91}{section*.4}
+\contentsline {subsubsection}{Web Map Service Tiles}{89}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Leaflet Student Demonstration - Markers}{92}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.3}Leaflet Student Demonstration - Markers}{90}{subsection.8.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Estimating Pi}{95}{chapter.9}
+\contentsline {chapter}{\numberline {9}Estimating Pi}{93}{chapter.9}
 \ttl@stoptoc {default@8}
 \ttl@starttoc {default@9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Introductory Reading}{95}{section.9.1}
+\contentsline {section}{\numberline {9.1}Introductory Reading}{93}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Objectives of the Case Study}{96}{section.9.2}
+\contentsline {section}{\numberline {9.2}Objectives of the Case Study}{93}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Building the Model}{96}{section.9.3}
+\contentsline {section}{\numberline {9.3}Building the Model}{94}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Deliverable}{100}{section.9.4}
+\contentsline {section}{\numberline {9.4}Deliverable}{98}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Teaching Code}{100}{section.9.5}
+\contentsline {section}{\numberline {9.5}Teaching Code}{98}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.6}Example Student Code}{101}{section.9.6}
+\contentsline {section}{\numberline {9.6}Example Student Code}{99}{section.9.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.7}Further Readings}{103}{section.9.7}
+\contentsline {section}{\numberline {9.7}Further Readings}{100}{section.9.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Plotluck}{105}{chapter.10}
+\contentsline {chapter}{\numberline {10}Plotluck}{103}{chapter.10}
 \ttl@stoptoc {default@9}
 \ttl@starttoc {default@10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Introduction}{105}{section.10.1}
+\contentsline {section}{\numberline {10.1}Introduction}{103}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Objectives}{105}{section.10.2}
+\contentsline {section}{\numberline {10.2}Objectives}{103}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Deliverable}{105}{section.10.3}
+\contentsline {section}{\numberline {10.3}Deliverable}{103}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Teaching Code}{108}{section.10.4}
+\contentsline {section}{\numberline {10.4}Teaching Code}{106}{section.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}Example Student Code}{109}{section.10.5}
+\contentsline {section}{\numberline {10.5}Example Student Code}{107}{section.10.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.6}Further Readings}{109}{section.10.6}
+\contentsline {section}{\numberline {10.6}Further Readings}{107}{section.10.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}ggplot2}{111}{chapter.11}
+\contentsline {chapter}{\numberline {11}ggplot2}{109}{chapter.11}
 \ttl@stoptoc {default@10}
 \ttl@starttoc {default@11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Introduction}{111}{section.11.1}
+\contentsline {section}{\numberline {11.1}Introduction}{109}{section.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Objectives of the Case Study}{112}{section.11.2}
+\contentsline {section}{\numberline {11.2}Objectives of the Case Study}{110}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Building the Model}{112}{section.11.3}
+\contentsline {section}{\numberline {11.3}Building the Model}{110}{section.11.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}Deliverable}{115}{section.11.4}
+\contentsline {section}{\numberline {11.4}Deliverable}{112}{section.11.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.5}Teaching Code}{115}{section.11.5}
+\contentsline {section}{\numberline {11.5}Teaching Code}{113}{section.11.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.6}Example Student Code}{119}{section.11.6}
+\contentsline {section}{\numberline {11.6}Example Student Code}{117}{section.11.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.7}Further Readings}{122}{section.11.7}
+\contentsline {section}{\numberline {11.7}Further Readings}{120}{section.11.7}
 \contentsfinish 

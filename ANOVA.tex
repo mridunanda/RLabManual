@@ -2,8 +2,6 @@
 \chapter{ANOVA}
 \section{Introductory Reading}
 
-\nomenclature{Glossary term:}{Definition}
-
 The most common type of linear models are analysis of variance (ANOVA) and linear regression models. 
 R is built to handle linear models, so it is easy to work with ANOVA. 
 ANOVA is a statistical method used to compare two or more means. 
@@ -33,8 +31,6 @@ In this assignment, we will use ANOVA to analyze data from ELISA HIV Optical Den
 ANOVA identifies the causes of variation and sorts out the corresponding components of variation with associated degrees of freedom. 
 In this case, we are interested in seeing how HIV Optical Density Readings are related to their lot. 
 The type of ANOVA we are using is one-way between groups, as we are comparing one grouping (the optical density readings) to define the groups (lots). 
-\setlist{before=\singlespacing,after=\singlespacing}
-\singlespacing
 By the end of this lesson, the reader should be able to:
 \begin{enumerate}
         \item Understand the logic behind one-way analysis of variance.
@@ -56,14 +52,12 @@ The post-hoc test also allows the user to find the differences in means, and spe
 Figure \ref{fig:BoxPlotOpticalDensity} shows a box plot of the data before running ANOVA or TukeyHSD.
 Constructing a box plot before analyzing the data may prove helpful in deciding what kind of analysis would be preferable.
 
-\begin{figure}[htbp!]%  the "H" means put it where you put this code....but that doesn't always work!
+\begin{figure}[htbp!]
         \centering
                 \includegraphics[width = .5\textwidth]{pictures/ANOVA/BoxPlotOpticalDensity.jpg} 
         \caption{Boxplot}
         \label{fig:BoxPlotOpticalDensity}
 \end{figure}
-
- 
 
 \section{Building the Model}
 

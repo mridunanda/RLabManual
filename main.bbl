@@ -16,6 +16,16 @@
   {}
 \endgroup
 
+\entry{berkeleyearth}{online}{}
+  \list{publisher}{1}{%
+    {Berkeley Earth}%
+  }
+  \verb{url}
+  \verb http://berkeleyearth.org/
+  \endverb
+  \field{year}{2016}
+\endentry
+
 \entry{inat}{online}{}
   \field{sortinit}{A}
   \field{title}{Accessing INaturalist Data.}

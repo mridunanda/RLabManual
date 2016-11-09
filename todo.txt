@@ -1,4 +1,3 @@
 add author references to each chapter
 consider breaking up bibliography
 add data/code to git repo
-change texttt to lstlinline

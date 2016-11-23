@@ -75,7 +75,7 @@ Download the ``Historical bird ringing records'' from: \url{http://www.gbif.org/
 After data is configured to fit the bdvis package, set the working directory to the location of the data on your laptop.
 Next, read the data from the file, making sure to set \texttt{stringsAsFactors} as false.
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords = {delim,stringsAsFactors}]
 #set working directory to where data is located
 setwd("/Users/margauxwinter/Desktop/Rfolder/dwca-safring-v1.0")
 
@@ -91,7 +91,7 @@ This function requires a minimum number of records that must be present on each 
 If there are too few records in the cells, the function is unable to finish, an error will result.
 Use the following code to generate the plot shown in figure \ref{fig:completeness}.
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords={bdcomplete}]
 comp=bdcomplete(birds)
 \end{lstlisting}
 
@@ -110,7 +110,7 @@ Species-density maps apply a color gradient according to the number of different
 Completeness maps apply a color gradient according to the completeness index, from 0 (incomplete) to 1 (complete).
 Use the following function to generate a map grid as shown in figure \ref{fig:Mapgrid}
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords={mapgrid}]
 mapgrid(comp,ptype='complete')
 \end{lstlisting}
 
@@ -125,7 +125,7 @@ In order to create a chronohorogram of the dates in the provided data set, use t
 A chronohorogram plots the number of records on each day with colors indicating the value and concentric circles for each year.
 The following code is used to create a chronohorogram like the one shown in figure \ref{fig:chronohorogram}.
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords={chronohorogram}]
 chronohorogram(birds)
 \end{lstlisting}
 
@@ -140,7 +140,7 @@ Use the function \texttt{distrigraph} to build plots displaying distribution of 
 The next four distrigraphs all use different p-types (feature to represent) allowing each graphic to depict different aspects of the data.
 The following code is used to create all four distrigraphs respectively as shown in figures \ref{fig:distrigraph1} and \ref{fig:distrigraph2}.
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords = {distrigraph,ptype}]
 distrigraph(birds,ptype="cell",col="tomato")
 distrigraph(birds,ptype="species",ylab="Species")
 distrigraph(birds,ptype="efforts",col="red")
@@ -163,11 +163,11 @@ distrigraph(birds,ptype="efforts",col="red",type="s")
     \label{fig:distrigraph2}
 \end{figure}
 
-Bdcalendarheat create a calendar heat map in which a calendar is structured as a matrix-like plot where each cell represents a unique date.
+\texttt{Bdcalendarheat} creates a calendar heat map in which a calendar is structured as a matrix-like plot where each cell represents a unique date.
 The cells are colored as to show the density of records for that date.
 Use the following function to create the heat map shown in figure \ref{fig:heatcal}.
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords={bdcalendarheat}]
 bdcalendarheat(birds)
 \end{lstlisting}
 
@@ -192,7 +192,7 @@ bdcalendarheat(birds)
 \section{Teaching Code}
 This is the code shown in the above examples:
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords={delim,Latitude,Longitude,config,Date_collected,Scientific_name,bdvis,bdcomplete,chronohorogram,distrigraph,bdcalendarheat,stringsAsFactors,ptype,recs,Scientific,name,Date,collected,mapgrid}]
 #set working directory to data location
 setwd("/Users/margauxwinter/Desktop/Rfolder/dwca-safring-v1.0")
 
@@ -227,7 +227,7 @@ bdcalendarheat(birds)
 The final deliverable should be submitted as visual models of the data in the form of distropraphs, maps, chronohorograms, and plots.
 Use the arachnid data set downloaded from: \url{http://www.gbif.org/occurrence/download/0012867-160910150852091}
 
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords={delim,Latitude,Longitude,config,Date_collected,Scientific_name,bdvis,bdcomplete,chronohorogram,distrigraph,bdcalendarheat,stringsAsFactors,ptype,timescale,recs,ylab,type,color,Scientific,name,Date,collected,tempolar,mapgrid}]
 #set working directory
 setwd("/Users/margauxwinter/Desktop/Rfolder/
 dwca-arc_national_survey_of_arachnida-v1.1")

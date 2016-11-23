@@ -101,7 +101,7 @@ To properly configure data, combine the data from the two factors intended to be
 Next, stack these combined groups.
 Finally use this stacked data and the function \texttt{aov} to perform ANOVA.
 Make a summary of these results.
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords = {droplevels,data,stack}]
 finalelisa <- droplevels(newelisa)
 summary(finalelisa$Lot)
 Combined_Groups <- data.frame(cbind(lot,optical))
@@ -116,7 +116,7 @@ To do this, we can use a post-hoc test.
 Post-hoc tests compare outcome measurements between multiple groups.
 With post-hoc analysis the reader can examine differences between pairs of groups after global analysis.
 Use the function \texttt{TukeyHSD} to perform a pairwise post-hoc analysis on the ANOVA results.
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords = {TukeyHSD}]
 summary(Anova_Results)
 TukeyHSD(Anova_Results)
 summary(TukeyHSD(Anova_Results))
@@ -176,7 +176,7 @@ class(elisa$Optical.type)
 \end{lstlisting}
 
 \section{Example Student Code}
-\begin{lstlisting}
+\begin{lstlisting}[morekeywords = {str,data,stack,TukeyHSD}]
 # KEY
 # ANOVA - ELISA HIV Optical density readings data
 
